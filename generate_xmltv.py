@@ -23,7 +23,7 @@ CROP_FILTER = os.getenv(
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
 
 # Set to 1 while testing. Change to 0 later for all channels.
-MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "1"))
+MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
 
 
 def slug(value):
