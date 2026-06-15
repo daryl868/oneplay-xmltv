@@ -148,151 +148,151 @@
     <display-name>OnePlay - The Dark Knight HD</display-name>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </channel>
-  <programme channel="oneplay.premiere.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>DUNGEONS &amp; DRAGONS (2023)</title>
+  <programme channel="oneplay.premiere.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>KANDAHAR (2023)</title>
     <desc>Auto-detected by OCR from OnePlay Premiere HD</desc>
   </programme>
-  <programme channel="oneplay.extra.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>SILENT NIGHT (2023)</title>
+  <programme channel="oneplay.extra.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>FAST CHARLIE (2023)</title>
     <desc>Auto-detected by OCR from OnePlay Extra HD</desc>
   </programme>
-  <programme channel="oneplay.bestoff.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.bestoff.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>BLADE RUNNER 2049 (2017)</title>
     <desc>Auto-detected by OCR from OnePlay BestOff HD</desc>
   </programme>
-  <programme channel="oneplay.action.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE CONTRACTOR (2022)</title>
+  <programme channel="oneplay.action.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>(2022)</title>
     <desc>Auto-detected by OCR from OnePlay Action HD</desc>
   </programme>
-  <programme channel="oneplay.actionplus1.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>EDGE OF TOMORROW (2014)</title>
+  <programme channel="oneplay.actionplus1.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>MACHINE GUN: PREACHER (2011)</title>
     <desc>Auto-detected by OCR from OnePlay Action+1 HD</desc>
   </programme>
-  <programme channel="oneplay.comedy.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>BORAT: SUBSEQUENT (2020)</title>
+  <programme channel="oneplay.comedy.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>PALM SPRINGS (2020)</title>
     <desc>Auto-detected by OCR from OnePlay Comedy HD</desc>
   </programme>
-  <programme channel="oneplay.thriller.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.thriller.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>INCEPTION (2010)</title>
     <desc>Auto-detected by OCR from OnePlay Thriller HD</desc>
   </programme>
-  <programme channel="oneplay.horror.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>GREEN ROOM (2016)</title>
+  <programme channel="oneplay.horror.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>THE BABADOOK (2014)</title>
     <desc>Auto-detected by OCR from OnePlay Horror HD</desc>
   </programme>
-  <programme channel="oneplay.warzone.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>JARHEAD-THE SIEGE (2016)</title>
+  <programme channel="oneplay.warzone.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>THE WALL (2017)</title>
     <desc>Auto-detected by OCR from OnePlay Warzone HD</desc>
   </programme>
-  <programme channel="oneplay.family.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE QUEST FOR TOM SAWYER'S GOLD (2023)</title>
+  <programme channel="oneplay.family.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>CHUPA (2023)</title>
     <desc>Auto-detected by OCR from OnePlay Family HD</desc>
   </programme>
-  <programme channel="oneplay.romance.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>CINDERELLA (2021)</title>
+  <programme channel="oneplay.romance.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>ALADDIN (2019)</title>
     <desc>Auto-detected by OCR from OnePlay Romance HD</desc>
   </programme>
-  <programme channel="oneplay.fantasy.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE WITCHES (2020)</title>
+  <programme channel="oneplay.fantasy.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>THE CRAFT- LEGACY (2020)</title>
     <desc>Auto-detected by OCR from OnePlay Fantasy HD</desc>
   </programme>
-  <programme channel="oneplay.western.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.western.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>NO MAN'S LAND (2021)</title>
     <desc>Auto-detected by OCR from OnePlay Western HD</desc>
   </programme>
-  <programme channel="oneplay.90s.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>TITANIC (1997)</title>
+  <programme channel="oneplay.90s.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>HEAT (1995)</title>
     <desc>Auto-detected by OCR from OnePlay 90s HD</desc>
   </programme>
-  <programme channel="oneplay.classics.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.classics.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>CHINATOWN (1974)</title>
     <desc>Auto-detected by OCR from OnePlay Classics HD</desc>
   </programme>
-  <programme channel="oneplay.disneyplus.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>IE: ALADDIN (2019)</title>
+  <programme channel="oneplay.disneyplus.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>ALADDIN (2019)</title>
     <desc>Auto-detected by OCR from OnePlay Disney+ HD</desc>
   </programme>
-  <programme channel="oneplay.marvel.1.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>MAN 2 (2010)</title>
+  <programme channel="oneplay.marvel.1.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>7 2</title>
     <desc>Auto-detected by OCR from OnePlay Marvel 1 HD</desc>
   </programme>
-  <programme channel="oneplay.marvel.2.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>HE IRON MAN 2 (2010)</title>
+  <programme channel="oneplay.marvel.2.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>IRON MAN 2 (2010)</title>
     <desc>Auto-detected by OCR from OnePlay Marvel 2 HD</desc>
   </programme>
-  <programme channel="oneplay.007.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>Z 007 - NO TIME TO DIE (2021)</title>
+  <programme channel="oneplay.007.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>JP 007 - NO TIME TO DIE (2021)</title>
     <desc>Auto-detected by OCR from OnePlay - 007 HD</desc>
   </programme>
-  <programme channel="oneplay.007classic.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>007 - LIVE AND LET DIE (1973)</title>
+  <programme channel="oneplay.007classic.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>007 - THE SPY WHO LOVED ME (1977)</title>
     <desc>Auto-detected by OCR from OnePlay - 007classic HD</desc>
   </programme>
-  <programme channel="oneplay.avengers.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE AVENGERS (2012)</title>
+  <programme channel="oneplay.avengers.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>WR THE AVENGERS (2012)</title>
     <desc>Auto-detected by OCR from OnePlay - Avengers HD</desc>
   </programme>
-  <programme channel="oneplay.fastandfurious.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>FAST &amp; FURIOUS 1 (2001)</title>
+  <programme channel="oneplay.fastandfurious.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>FAST &amp; FURIOUS 2 (2003)</title>
     <desc>Auto-detected by OCR from OnePlay - Fast&amp;Furious HD</desc>
   </programme>
-  <programme channel="oneplay.finaldestination.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>FINAL DESTINATION 2 (2003)</title>
+  <programme channel="oneplay.finaldestination.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>FINAL DESTINATION 3 (2006)</title>
     <desc>Auto-detected by OCR from OnePlay - FinalDestination HD</desc>
   </programme>
-  <programme channel="oneplay.harrypotter.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>HARRY POTTER 4 (2005)</title>
+  <programme channel="oneplay.harrypotter.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>HARRY POTTER 5 (2007)</title>
     <desc>Auto-detected by OCR from OnePlay - HarryPotter HD</desc>
   </programme>
-  <programme channel="oneplay.missionimpossible.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>MISSION- IMPOSSIBLE 2 (2000)</title>
+  <programme channel="oneplay.missionimpossible.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>MISSION- IMPOSSIBLE 3 (2006)</title>
     <desc>Auto-detected by OCR from OnePlay - MissionImpossible HD</desc>
   </programme>
-  <programme channel="oneplay.piratescaribbean.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>PIRATES OF THE CARIBBEAN 1 (2003)</title>
+  <programme channel="oneplay.piratescaribbean.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>PIRATES OF THE CARIBBEAN 2 (2006)</title>
     <desc>Auto-detected by OCR from OnePlay - PiratesCaribbean HD</desc>
   </programme>
-  <programme channel="oneplay.saw.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>SAW 5 (2008)</title>
+  <programme channel="oneplay.saw.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>I SAW: THE FINAL CHAPTER (2010)</title>
     <desc>Auto-detected by OCR from OnePlay - Saw HD</desc>
   </programme>
-  <programme channel="oneplay.transformers.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>OF THE FALLEN (2009)</title>
+  <programme channel="oneplay.transformers.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>TRANSFORMERS- REVENGE OF THE FALLEN (2009)</title>
     <desc>Auto-detected by OCR from OnePlay - Transformers HD</desc>
   </programme>
-  <programme channel="oneplay.planet.of.apes.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>WAR FOR THE PLANET OF THE APES (2017)</title>
+  <programme channel="oneplay.planet.of.apes.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>2 WAR FOR THE PLANET OF THE APES (2017)</title>
     <desc>Auto-detected by OCR from OnePlay - Planet of Apes HD</desc>
   </programme>
-  <programme channel="oneplay.scream.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.scream.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>SCREAM 4 (2011)</title>
     <desc>Auto-detected by OCR from OnePlay - Scream HD</desc>
   </programme>
-  <programme channel="oneplay.star.wars.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>STARWARS: THE PHANTOM MENACE (1999)</title>
+  <programme channel="oneplay.star.wars.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>OnePlay - Star Wars HD</title>
     <desc>Auto-detected by OCR from OnePlay - Star Wars HD</desc>
   </programme>
-  <programme channel="oneplay.the.twilight.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE TWILIGHT SAGA- NEW MOON (2009)</title>
+  <programme channel="oneplay.the.twilight.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>THE TWILIGHT SAGA- ECLIPSE (2010)</title>
     <desc>Auto-detected by OCR from OnePlay - The Twilight HD</desc>
   </programme>
-  <programme channel="oneplay.ocean.s.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>LS OCEAN'S TWELVE (2004)</title>
+  <programme channel="oneplay.ocean.s.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>OCEAN'S TWELVE (2004)</title>
     <desc>Auto-detected by OCR from OnePlay - Ocean's HD</desc>
   </programme>
-  <programme channel="oneplay.the.expendables.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE EXPENDABLES 2 (2012)</title>
+  <programme channel="oneplay.the.expendables.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>THE EXPENDABLES 3 (2014)</title>
     <desc>Auto-detected by OCR from OnePlay - The Expendables HD</desc>
   </programme>
-  <programme channel="oneplay.spiderman.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>THE AMAZING SPIDER-MAN 2 (2014)</title>
+  <programme channel="oneplay.spiderman.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>SPIDER-MAN FAR FROM - (2019)</title>
     <desc>Auto-detected by OCR from OnePlay - SpiderMan HD</desc>
   </programme>
-  <programme channel="oneplay.rambo.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
-    <title>RAMBO: FIRST BLOOD 2 (1985)</title>
+  <programme channel="oneplay.rambo.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
+    <title>HE RAMBO 3 (1988)</title>
     <desc>Auto-detected by OCR from OnePlay - Rambo HD</desc>
   </programme>
-  <programme channel="oneplay.the.dark.knight.hd" start="20260615120000 +0000" stop="20260615140000 +0000">
+  <programme channel="oneplay.the.dark.knight.hd" start="20260615140000 +0000" stop="20260615160000 +0000">
     <title>THE BATMAN (2022)</title>
     <desc>Auto-detected by OCR from OnePlay - The Dark Knight HD</desc>
   </programme>
