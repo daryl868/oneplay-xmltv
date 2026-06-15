@@ -1,0 +1,5 @@
+#EXTM3U
+# Replace USERNAME and PASSWORD with your IPTV credentials.
+# Start with one channel first. Add the rest after OCR/crop works.
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Premiere HD" tvg-logo="https://iili.io/JV0y8yQ.md.png" group-title="EN OnePlay Cinema",OnePlay Premiere HD
+http://goiptv.club:80/USERNAME/PASSWORD/64739.ts
