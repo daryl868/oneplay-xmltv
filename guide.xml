@@ -161,7 +161,7 @@
     <desc>Auto-detected by OCR from OnePlay BestOff HD</desc>
   </programme>
   <programme channel="oneplay.action.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>OnePlay Action HD</title>
+    <title>AMBULANCE (2022)</title>
     <desc>Auto-detected by OCR from OnePlay Action HD</desc>
   </programme>
   <programme channel="oneplay.actionplus1.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -181,7 +181,7 @@
     <desc>Auto-detected by OCR from OnePlay Horror HD</desc>
   </programme>
   <programme channel="oneplay.warzone.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>OnePlay Warzone HD</title>
+    <title>MINE (2016)</title>
     <desc>Auto-detected by OCR from OnePlay Warzone HD</desc>
   </programme>
   <programme channel="oneplay.family.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -197,11 +197,11 @@
     <desc>Auto-detected by OCR from OnePlay Fantasy HD</desc>
   </programme>
   <programme channel="oneplay.western.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>BUFFALO BOYS (2018)</title>
+    <title>Buffalo (2018)</title>
     <desc>Auto-detected by OCR from OnePlay Western HD</desc>
   </programme>
   <programme channel="oneplay.90s.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>OnePlay 90s HD</title>
+    <title>HEAT (1995)</title>
     <desc>Auto-detected by OCR from OnePlay 90s HD</desc>
   </programme>
   <programme channel="oneplay.classics.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -209,7 +209,7 @@
     <desc>Auto-detected by OCR from OnePlay Classics HD</desc>
   </programme>
   <programme channel="oneplay.disneyplus.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>OnePlay Disney+ HD</title>
+    <title>MULAN (2020)</title>
     <desc>Auto-detected by OCR from OnePlay Disney+ HD</desc>
   </programme>
   <programme channel="oneplay.marvel.1.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -237,7 +237,7 @@
     <desc>Auto-detected by OCR from OnePlay - Fast&amp;Furious HD</desc>
   </programme>
   <programme channel="oneplay.finaldestination.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>LA FINAL DESTINATION 4 (2009)</title>
+    <title>FINAL DESTINATION 4 (2009)</title>
     <desc>Auto-detected by OCR from OnePlay - FinalDestination HD</desc>
   </programme>
   <programme channel="oneplay.harrypotter.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -253,15 +253,15 @@
     <desc>Auto-detected by OCR from OnePlay - PiratesCaribbean HD</desc>
   </programme>
   <programme channel="oneplay.saw.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>JIGSAW (2017)</title>
+    <title>LE: SAW (2004)</title>
     <desc>Auto-detected by OCR from OnePlay - Saw HD</desc>
   </programme>
   <programme channel="oneplay.transformers.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>IE: TRANSFORMERS- DARK OF THE MOON (2011)</title>
+    <title>TRANSFORMERS- DARK OF THE MOON (2011)</title>
     <desc>Auto-detected by OCR from OnePlay - Transformers HD</desc>
   </programme>
   <programme channel="oneplay.planet.of.apes.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>OnePlay - Planet of Apes HD</title>
+    <title>RISE OF THE PLANET OF THE APES (2011)</title>
     <desc>Auto-detected by OCR from OnePlay - Planet of Apes HD</desc>
   </programme>
   <programme channel="oneplay.scream.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -273,7 +273,7 @@
     <desc>Auto-detected by OCR from OnePlay - Star Wars HD</desc>
   </programme>
   <programme channel="oneplay.the.twilight.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>THE TWILIGHT (2008)</title>
+    <title>FE THE TWILIGHT (2008)</title>
     <desc>Auto-detected by OCR from OnePlay - The Twilight HD</desc>
   </programme>
   <programme channel="oneplay.ocean.s.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
@@ -285,15 +285,15 @@
     <desc>Auto-detected by OCR from OnePlay - The Expendables HD</desc>
   </programme>
   <programme channel="oneplay.spiderman.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>FEE SPIDER-MAN FAR FROM HOME (2019)</title>
+    <title>SPIDER-MAN NO WAY HOME (2021)</title>
     <desc>Auto-detected by OCR from OnePlay - SpiderMan HD</desc>
   </programme>
   <programme channel="oneplay.rambo.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>RAMBO (2008)</title>
+    <title>LIYE RAMBO (2008)</title>
     <desc>Auto-detected by OCR from OnePlay - Rambo HD</desc>
   </programme>
   <programme channel="oneplay.the.dark.knight.hd" start="20260615150000 +0000" stop="20260615170000 +0000">
-    <title>F ETURNS (1992)</title>
+    <title>BATMAN: RETURNS (1992)</title>
     <desc>Auto-detected by OCR from OnePlay - The Dark Knight HD</desc>
   </programme>
 </tv>
