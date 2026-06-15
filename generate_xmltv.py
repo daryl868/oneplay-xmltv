@@ -12,9 +12,15 @@ OUTPUT_FILE = "guide.xml"
 DEBUG_DIR = Path("debug")
 DEBUG_DIR.mkdir(exist_ok=True)
 
-CROP_FILTER = os.getenv("CROP_FILTER", "crop=900:220:80:500,scale=1800:-1")
+# Based on your screenshot:
+# title is in the lower-left black bar.
+# Format: crop=width:height:x:y
+CROP_FILTER = os.getenv("CROP_FILTER", "crop=700:90:0:840,scale=2800:-1")
+
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
-MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))  # 0 = all channels
+
+# Set to 1 while testing. Change to 0 later for all channels.
+MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "1"))
 
 
 def slug(value):
@@ -73,7 +79,16 @@ def run_cmd(cmd, timeout=45):
 
 def clean_ocr(text):
     text = re.sub(r"\s+", " ", text or "").strip()
-    text = text.replace("HD", "").replace("ᴴᴰ", "").strip()
+    text = text.replace("ᴴᴰ", "").replace("HD", "").strip()
+
+    # Prefer movie title format like FAST X (2023)
+    match = re.search(
+        r"([A-Z0-9][A-Z0-9 :'\-&,.!]+)\s*\((19|20)\d\d\)",
+        text.upper()
+    )
+
+    if match:
+        return match.group(0).strip()
 
     text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" -:|.")
@@ -143,7 +158,7 @@ def capture_title(channel, index):
             str(crop),
             "stdout",
             "--psm",
-            "6",
+            "7",
         ], timeout=30)
 
         if ocr.returncode != 0:
