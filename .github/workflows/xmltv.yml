@@ -24,6 +24,6 @@ jobs:
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add guide.xml debug_screenshot.jpg debug_crop.jpg
+          git add guide.xml debug/
           git commit -m "Update XMLTV" || exit 0
           git push
