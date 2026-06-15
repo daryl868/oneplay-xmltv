@@ -175,7 +175,7 @@ def capture_title(channel, index):
             detected_titles.append(title)
 
     if detected_titles:
-        return Counter(detected_titles).most_common(1)[0][0]
+        movie_titles = [     t for t in detected_titles     if re.search(r"\((19|20)\d\d\)", t) ]  if movie_titles:     return movie_titles[0]  return Counter(detected_titles).most_common(1)[0][0]
 
     return channel["name"]
 
