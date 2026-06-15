@@ -27,3 +27,5 @@ jobs:
           git add guide.xml debug/
           git commit -m "Update XMLTV" || exit 0
           git push
+
+          
