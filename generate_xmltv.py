@@ -15,7 +15,10 @@ DEBUG_DIR.mkdir(exist_ok=True)
 # Based on your screenshot:
 # title is in the lower-left black bar.
 # Format: crop=width:height:x:y
-CROP_FILTER = os.getenv("CROP_FILTER", "crop=700:90:0:840,scale=2800:-1")
+CROP_FILTER = os.getenv(
+    "CROP_FILTER",
+    "crop=700:160:0:850,scale=2000:-1"
+)
 
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
 
