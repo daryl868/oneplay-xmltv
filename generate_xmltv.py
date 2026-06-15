@@ -17,7 +17,7 @@ DEBUG_DIR.mkdir(exist_ok=True)
 # Format: crop=width:height:x:y
 CROP_FILTER = os.getenv(
     "CROP_FILTER",
-    "crop=700:160:0:850,scale=2000:-1"
+    "crop=900:160:0:820,scale=2500:-1"
 )
 
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
