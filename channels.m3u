@@ -1,5 +1,75 @@
 #EXTM3U
-# Replace USERNAME and PASSWORD with your IPTV credentials.
-# Start with one channel first. Add the rest after OCR/crop works.
 #EXTINF:-1 tvg-id="" tvg-name="OnePlay Premiere HD" tvg-logo="https://iili.io/JV0y8yQ.md.png" group-title="EN OnePlay Cinema",OnePlay Premiere HD
-http://goiptv.club:80/USERNAME/PASSWORD/64739.ts
+http://goiptv.club:80/81696815/96058230/64739.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Extra HD" tvg-logo="https://iili.io/JV0yi6g.md.png" group-title="EN OnePlay Cinema",OnePlay Extra HD
+http://goiptv.club:80/81696815/96058230/64740.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay BestOff HD" tvg-logo="https://iili.io/JV19FSf.md.png" group-title="EN OnePlay Cinema",OnePlay BestOff HD
+http://goiptv.club:80/81696815/96058230/64741.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Action HD" tvg-logo="https://iili.io/JV19ASj.md.png" group-title="EN OnePlay Cinema",OnePlay Action HD
+http://goiptv.club:80/81696815/96058230/64742.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Action+1 HD" tvg-logo="https://iili.io/JV19ASj.md.png" group-title="EN OnePlay Cinema",OnePlay Action+1 HD
+http://goiptv.club:80/81696815/96058230/64743.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Comedy HD" tvg-logo="https://iili.io/JV19VUJ.md.png" group-title="EN OnePlay Cinema",OnePlay Comedy HD
+http://goiptv.club:80/81696815/96058230/64744.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Thriller HD" tvg-logo="https://iili.io/JV198fn.md.png" group-title="EN OnePlay Cinema",OnePlay Thriller HD
+http://goiptv.club:80/81696815/96058230/64745.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Horror HD" tvg-logo="https://iili.io/JV194R4.md.png" group-title="EN OnePlay Cinema",OnePlay Horror HD
+http://goiptv.club:80/81696815/96058230/64746.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Warzone HD" tvg-logo="https://iili.io/JV19sxS.md.png" group-title="EN OnePlay Cinema",OnePlay Warzone HD
+http://goiptv.club:80/81696815/96058230/64747.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Family HD" tvg-logo="https://iili.io/JV1HdzB.md.png" group-title="EN OnePlay Cinema",OnePlay Family HD
+http://goiptv.club:80/81696815/96058230/64748.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Romance HD" tvg-logo="https://iili.io/JV1Hqga.md.png" group-title="EN OnePlay Cinema",OnePlay Romance HD
+http://goiptv.club:80/81696815/96058230/64749.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Fantasy HD" tvg-logo="https://iili.io/JV1HoeR.md.png" group-title="EN OnePlay Cinema",OnePlay Fantasy HD
+http://goiptv.club:80/81696815/96058230/64750.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Western HD" tvg-logo="https://iili.io/JV1HML7.md.png" group-title="EN OnePlay Cinema",OnePlay Western HD
+http://goiptv.club:80/81696815/96058230/64751.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay 90s HD" tvg-logo="https://iili.io/JV1HemQ.md.png" group-title="EN OnePlay Cinema",OnePlay 90s HD
+http://goiptv.club:80/81696815/96058230/64752.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Classics HD" tvg-logo="https://iili.io/JV1HgB1.md.png" group-title="EN OnePlay Cinema",OnePlay Classics HD
+http://goiptv.club:80/81696815/96058230/64753.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Disney+ HD" tvg-logo="https://iili.io/boRnCF.md.png" group-title="EN OnePlay Cinema",OnePlay Disney+ HD
+http://goiptv.club:80/81696815/96058230/64754.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Marvel 1 HD" tvg-logo="https://iili.io/bnvEZP.md.png" group-title="EN OnePlay Cinema",OnePlay Marvel 1 HD
+http://goiptv.club:80/81696815/96058230/64755.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay Marvel 2 HD" tvg-logo="https://iili.io/bnvEZP.md.png" group-title="EN OnePlay Cinema",OnePlay Marvel 2 HD
+http://goiptv.club:80/81696815/96058230/64756.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - 007 HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - 007 HD
+http://goiptv.club:80/81696815/96058230/64757.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - 007classic HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - 007classic HD
+http://goiptv.club:80/81696815/96058230/64758.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Avengers HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Avengers HD
+http://goiptv.club:80/81696815/96058230/64759.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Fast&Furious HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Fast&Furious HD
+http://goiptv.club:80/81696815/96058230/64760.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - FinalDestination HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - FinalDestination HD
+http://goiptv.club:80/81696815/96058230/64761.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - HarryPotter HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - HarryPotter HD
+http://goiptv.club:80/81696815/96058230/64762.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - MissionImpossible HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - MissionImpossible HD
+http://goiptv.club:80/81696815/96058230/64763.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - PiratesCaribbean HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - PiratesCaribbean HD
+http://goiptv.club:80/81696815/96058230/64764.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Saw HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Saw HD
+http://goiptv.club:80/81696815/96058230/64765.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Transformers HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Transformers HD
+http://goiptv.club:80/81696815/96058230/64766.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Planet of Apes HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Planet of Apes HD
+http://goiptv.club:80/81696815/96058230/64767.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Scream HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Scream HD
+http://goiptv.club:80/81696815/96058230/64768.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Star Wars HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Star Wars HD
+http://goiptv.club:80/81696815/96058230/64769.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - The Twilight HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - The Twilight HD
+http://goiptv.club:80/81696815/96058230/64770.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Ocean's HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Ocean's HD
+http://goiptv.club:80/81696815/96058230/64771.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - The Expendables HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - The Expendables HD
+http://goiptv.club:80/81696815/96058230/64772.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - SpiderMan HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - SpiderMan HD
+http://goiptv.club:80/81696815/96058230/64773.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - Rambo HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - Rambo HD
+http://goiptv.club:80/81696815/96058230/64774.ts
+#EXTINF:-1 tvg-id="" tvg-name="OnePlay - The Dark Knight HD" tvg-logo="https://iili.io/bnvmPe.md.png" group-title="EN OnePlay Cinema",OnePlay - The Dark Knight HD
+http://goiptv.club:80/81696815/96058230/64775.ts

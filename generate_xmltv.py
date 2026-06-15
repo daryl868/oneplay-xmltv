@@ -1,131 +1,142 @@
+import os
 import re
 import subprocess
 import xml.etree.ElementTree as ET
+from collections import Counter
 from datetime import datetime, timedelta, timezone
 from pathlib import Path
 
-CHANNELS_FILE = Path("channels.m3u")
-OUTPUT_FILE = Path("guide.xml")
-SCREENSHOT_FILE = Path("debug_screenshot.jpg")
-CROP_FILE = Path("debug_crop.jpg")
+CHANNELS_FILE = "channels.m3u"
+OUTPUT_FILE = "guide.xml"
+DEBUG_DIR = Path("debug")
+DEBUG_DIR.mkdir(exist_ok=True)
 
-# Adjust this after checking debug_crop.jpg.
+# Adjust this if the OCR crop misses the movie-title overlay.
 # Format: crop=width:height:x:y
-CROP_FILTER = "crop=900:220:80:500,scale=1800:-1"
-
-PROGRAMME_HOURS = 2
-
-
-def parse_m3u(path):
-    text = path.read_text(encoding="utf-8", errors="ignore")
-    lines = [line.strip() for line in text.splitlines() if line.strip()]
-    channels = []
-
-    i = 0
-    while i < len(lines):
-        line = lines[i]
-        if line.startswith("#EXTINF") and i + 1 < len(lines):
-            url = lines[i + 1]
-            tvg_name = _attr(line, "tvg-name") or line.split(",", 1)[-1].strip()
-            tvg_logo = _attr(line, "tvg-logo")
-            channel_id = slugify(tvg_name)
-            channels.append({
-                "id": channel_id,
-                "name": tvg_name,
-                "logo": tvg_logo,
-                "url": url,
-            })
-            i += 2
-        else:
-            i += 1
-
-    return channels
+CROP_FILTER = os.getenv("CROP_FILTER", "crop=900:220:80:500,scale=1800:-1")
+PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
+MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))  # 0 = all channels
 
 
-def _attr(line, name):
-    match = re.search(rf'{name}="([^"]*)"', line)
-    return match.group(1).strip() if match else ""
-
-
-def slugify(value):
-    value = value.replace("ᴴᴰ", "HD")
+def slug(value):
+    value = value.replace("+", "plus").replace("&", "and")
     value = re.sub(r"[^a-zA-Z0-9]+", ".", value).strip(".").lower()
     return value or "channel"
 
 
-def run_command(cmd):
-    return subprocess.run(
-        cmd,
-        check=True,
-        stdout=subprocess.PIPE,
-        stderr=subprocess.PIPE,
-        text=True,
-        timeout=60,
-    )
+def parse_attrs(line):
+    return dict(re.findall(r'(\S+)="([^"]*)"', line))
 
 
-def detect_title(stream_url, fallback_title):
-    try:
-        run_command([
-            "ffmpeg", "-y",
-            "-i", stream_url,
+def parse_m3u(path):
+    lines = Path(path).read_text(encoding="utf-8", errors="ignore").splitlines()
+    channels = []
+    pending = None
+    for line in lines:
+        line = line.strip()
+        if not line:
+            continue
+        if line.startswith("#EXTINF"):
+            attrs = parse_attrs(line)
+            display_name = line.split(",", 1)[-1].strip() if "," in line else attrs.get("tvg-name", "Channel")
+            pending = {
+                "name": attrs.get("tvg-name") or display_name,
+                "display_name": display_name,
+                "logo": attrs.get("tvg-logo", ""),
+                "group": attrs.get("group-title", ""),
+            }
+        elif pending and not line.startswith("#"):
+            pending["url"] = line
+            pending["id"] = slug(pending["name"])
+            channels.append(pending)
+            pending = None
+    return channels
+
+
+def run_cmd(cmd, timeout=45):
+    return subprocess.run(cmd, text=True, capture_output=True, timeout=timeout)
+
+
+def capture_title(channel, index):
+    safe = f"{index:02d}_{channel['id']}"
+    screenshots = []
+
+    # Capture 3 frames a few seconds apart. OCR chooses the most common usable result.
+    for n, ss in enumerate([5, 15, 30], start=1):
+        shot = DEBUG_DIR / f"{safe}_shot_{n}.jpg"
+        crop = DEBUG_DIR / f"{safe}_crop_{n}.jpg"
+
+        cap = run_cmd([
+            "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+            "-rw_timeout", "15000000",
+            "-ss", str(ss),
+            "-i", channel["url"],
             "-frames:v", "1",
-            str(SCREENSHOT_FILE),
-        ])
+            str(shot),
+        ], timeout=60)
 
-        run_command([
-            "ffmpeg", "-y",
-            "-i", str(SCREENSHOT_FILE),
+        if cap.returncode != 0 or not shot.exists():
+            continue
+
+        crop_cmd = run_cmd([
+            "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+            "-i", str(shot),
             "-vf", CROP_FILTER,
-            str(CROP_FILE),
-        ])
+            str(crop),
+        ], timeout=30)
 
-        ocr = run_command([
-            "tesseract",
-            str(CROP_FILE),
-            "stdout",
-            "--psm", "6",
-        ]).stdout
+        if crop_cmd.returncode != 0 or not crop.exists():
+            continue
 
-        title = clean_ocr(ocr)
-        return title or fallback_title
-    except Exception as exc:
-        print(f"OCR failed for {fallback_title}: {exc}")
-        return fallback_title
+        ocr = run_cmd([
+            "tesseract", str(crop), "stdout", "--psm", "6"
+        ], timeout=30)
+
+        if ocr.returncode == 0:
+            text = clean_ocr(ocr.stdout)
+            if text:
+                screenshots.append(text)
+
+    if screenshots:
+        return Counter(screenshots).most_common(1)[0][0]
+
+    return channel["name"]
 
 
 def clean_ocr(text):
-    text = re.sub(r"\s+", " ", text).strip()
-    text = text.replace("ᴴᴰ", "").strip()
-    text = re.sub(r"^[^A-Za-z0-9]+", "", text)
-    text = re.sub(r"[^A-Za-z0-9)]+$", "", text)
+    text = re.sub(r"\s+", " ", text or "").strip()
+    text = text.replace("HD", "").replace("ᴴᴰ", "").strip()
+
+    # Keep useful movie title characters and remove OCR junk at the edges.
+    text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
+    text = re.sub(r"\s+", " ", text).strip(" -:|.")
+
+    # Avoid writing tiny false positives into the guide.
+    if len(text) < 3:
+        return ""
     return text
 
 
-def build_xmltv(channels):
+def write_xmltv(channels, titles):
     now = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
     stop = now + timedelta(hours=PROGRAMME_HOURS)
 
-    tv = ET.Element("tv", {"generator-info-name": "OnePlay OCR XMLTV Generator"})
+    tv = ET.Element("tv", {"generator-info-name": "OnePlay GitHub OCR XMLTV"})
 
     for ch in channels:
-        channel = ET.SubElement(tv, "channel", id=ch["id"])
-        ET.SubElement(channel, "display-name").text = ch["name"]
+        c = ET.SubElement(tv, "channel", id=ch["id"])
+        ET.SubElement(c, "display-name").text = ch["name"]
         if ch.get("logo"):
-            ET.SubElement(channel, "icon", src=ch["logo"])
+            ET.SubElement(c, "icon", src=ch["logo"])
 
     for ch in channels:
-        print(f"Checking {ch['name']}...")
-        title = detect_title(ch["url"], ch["name"])
-        print(f"Detected title for {ch['name']}: {title}")
-
-        programme = ET.SubElement(tv, "programme", {
+        p = ET.SubElement(tv, "programme", {
             "channel": ch["id"],
             "start": now.strftime("%Y%m%d%H%M%S %z"),
             "stop": stop.strftime("%Y%m%d%H%M%S %z"),
         })
-        ET.SubElement(programme, "title").text = title
-        ET.SubElement(programme, "desc").text = f"Detected by OCR from {ch['name']}"
+        ET.SubElement(p, "title").text = titles.get(ch["id"], ch["name"])
+        ET.SubElement(p, "desc").text = f"Auto-detected by OCR from {ch['name']}"
 
     tree = ET.ElementTree(tv)
     ET.indent(tree, space="  ")
@@ -134,11 +145,19 @@ def build_xmltv(channels):
 
 def main():
     channels = parse_m3u(CHANNELS_FILE)
-    if not channels:
-        raise SystemExit("No channels found in channels.m3u")
+    if MAX_CHANNELS > 0:
+        channels = channels[:MAX_CHANNELS]
 
-    build_xmltv(channels)
-    print(f"Created {OUTPUT_FILE} for {len(channels)} channel(s)")
+    print(f"Found {len(channels)} channels")
+    titles = {}
+    for i, ch in enumerate(channels, start=1):
+        print(f"Checking {ch['name']}...")
+        title = capture_title(ch, i)
+        titles[ch["id"]] = title
+        print(f"  OCR title: {title}")
+
+    write_xmltv(channels, titles)
+    print(f"Created {OUTPUT_FILE}")
 
 
 if __name__ == "__main__":
