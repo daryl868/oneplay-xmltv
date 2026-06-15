@@ -172,7 +172,7 @@ def capture_title(channel, index):
     safe = f"{index:02d}_{channel['id']}"
     detected_titles = []
 
-    for n in range(1, 4):
+    for n in range(1, 6):
         shot = DEBUG_DIR / f"{safe}_shot_{n}.jpg"
         crop = DEBUG_DIR / f"{safe}_crop_{n}.jpg"
 
