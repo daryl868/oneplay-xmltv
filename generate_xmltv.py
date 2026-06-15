@@ -12,17 +12,12 @@ OUTPUT_FILE = "guide.xml"
 DEBUG_DIR = Path("debug")
 DEBUG_DIR.mkdir(exist_ok=True)
 
-# Based on your screenshot:
-# title is in the lower-left black bar.
-# Format: crop=width:height:x:y
 CROP_FILTER = os.getenv(
     "CROP_FILTER",
     "crop=700:150:0:950,scale=3000:-1"
 )
 
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
-
-# Set to 1 while testing. Change to 0 later for all channels.
 MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
 
 
@@ -84,10 +79,18 @@ def clean_ocr(text):
     text = re.sub(r"\s+", " ", text or "").strip()
     text = text.replace("ᴴᴰ", "").replace("HD", "").strip()
 
-    # Prefer movie title format like FAST X (2023)
+    # Remove common OCR garbage caused by the yellow OnePlay arrow/logo.
+    text = re.sub(
+        r"^(IE|IZ|IP|LIE|E|B|A)\s+",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # Prefer movie title format like FAST X (2023).
     match = re.search(
         r"([A-Z0-9][A-Z0-9 :'\-&,.!]+)\s*\((19|20)\d\d\)",
-        text.upper()
+        text.upper(),
     )
 
     if match:
@@ -175,7 +178,15 @@ def capture_title(channel, index):
             detected_titles.append(title)
 
     if detected_titles:
-        movie_titles = [     t for t in detected_titles     if re.search(r"\((19|20)\d\d\)", t) ]  if movie_titles:     return movie_titles[0]  return Counter(detected_titles).most_common(1)[0][0]
+        movie_titles = [
+            t for t in detected_titles
+            if re.search(r"\((19|20)\d\d\)", t)
+        ]
+
+        if movie_titles:
+            return Counter(movie_titles).most_common(1)[0][0]
+
+        return Counter(detected_titles).most_common(1)[0][0]
 
     return channel["name"]
 
@@ -232,4 +243,3 @@ def main():
 
 if __name__ == "__main__":
     main()
-
