@@ -79,30 +79,93 @@ def clean_ocr(text):
     text = re.sub(r"\s+", " ", text or "").strip()
     text = text.replace("ᴴᴰ", "").replace("HD", "").strip()
 
-    # Remove common OCR garbage caused by the yellow OnePlay arrow/logo.
+    # Remove common OCR garbage caused by the OnePlay arrow/logo.
     text = re.sub(
-    r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|E|B|A|2)\s+",
-    "",
-    text,
-    flags=re.IGNORECASE,
-)
+        r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|E|B|A|I|2)\s+",
+        "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # Reject results that are only a year, like "(2022)".
+    if re.fullmatch(r"\((19|20)\d\d\)", text):
+        return ""
 
     # Prefer movie title format like FAST X (2023).
+    # Require at least 4 useful characters before the year.
     match = re.search(
-        r"([A-Z0-9][A-Z0-9 :'\-&,.!]+)\s*\((19|20)\d\d\)",
+        r"([A-Z0-9][A-Z0-9 :'\-&,.!]{3,})\s*\((19|20)\d\d\)",
         text.upper(),
     )
 
     if match:
-        return match.group(0).strip()
+        cleaned = match.group(0).strip()
+
+        # Reject titles that became only a year after cleanup.
+        if re.fullmatch(r"\((19|20)\d\d\)", cleaned):
+            return ""
+
+        return cleaned
 
     text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" -:|.")
 
-    if len(text) < 3:
+    if len(text) < 4:
         return ""
 
     return text
+
+
+def title_has_year(title):
+    return bool(re.search(r"\((19|20)\d\d\)", title or ""))
+
+
+def score_title(title):
+    if not title:
+        return 0
+
+    score = 0
+
+    if title_has_year(title):
+        score += 100
+
+    # Prefer longer, fuller OCR results.
+    score += min(len(title), 80)
+
+    # Penalize obvious junk.
+    if re.fullmatch(r"\d+\s*\((19|20)\d\d\)", title):
+        score -= 50
+
+    if len(title.replace(" ", "")) < 4:
+        score -= 50
+
+    return score
+
+
+def choose_best_title(detected_titles, fallback):
+    if not detected_titles:
+        return fallback
+
+    # First, prefer titles with a proper year and enough text.
+    movie_titles = [
+        t for t in detected_titles
+        if title_has_year(t) and not re.fullmatch(r"\d+\s*\((19|20)\d\d\)", t)
+    ]
+
+    if movie_titles:
+        counts = Counter(movie_titles)
+        return sorted(
+            movie_titles,
+            key=lambda t: (counts[t], score_title(t)),
+            reverse=True,
+        )[0]
+
+    counts = Counter(detected_titles)
+    return sorted(
+        detected_titles,
+        key=lambda t: (counts[t], score_title(t)),
+        reverse=True,
+    )[0]
 
 
 def capture_title(channel, index):
@@ -177,18 +240,7 @@ def capture_title(channel, index):
         if title:
             detected_titles.append(title)
 
-    if detected_titles:
-        movie_titles = [
-            t for t in detected_titles
-            if re.search(r"\((19|20)\d\d\)", t)
-        ]
-
-        if movie_titles:
-            return Counter(movie_titles).most_common(1)[0][0]
-
-        return Counter(detected_titles).most_common(1)[0][0]
-
-    return channel["name"]
+    return choose_best_title(detected_titles, channel["name"])
 
 
 def write_xmltv(channels, titles):
