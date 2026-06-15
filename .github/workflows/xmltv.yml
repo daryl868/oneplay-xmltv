@@ -19,7 +19,7 @@ jobs:
         with:
           python-version: "3.11"
 
-      - run: python generate_xmltv.py
+      - run: python -u generate_xmltv.py
 
       - run: |
           git config user.name "github-actions"
