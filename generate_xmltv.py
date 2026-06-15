@@ -81,11 +81,11 @@ def clean_ocr(text):
 
     # Remove common OCR garbage caused by the yellow OnePlay arrow/logo.
     text = re.sub(
-        r"^(IE|IZ|IP|LIE|E|B|A)\s+",
-        "",
-        text,
-        flags=re.IGNORECASE,
-    )
+    r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|E|B|A|2)\s+",
+    "",
+    text,
+    flags=re.IGNORECASE,
+)
 
     # Prefer movie title format like FAST X (2023).
     match = re.search(
