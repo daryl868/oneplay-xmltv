@@ -17,7 +17,7 @@ CROP_FILTER = os.getenv(
     "crop=700:150:0:950,scale=3000:-1"
 )
 
-PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
+PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "24"))
 MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
 
 
@@ -79,7 +79,6 @@ def clean_ocr(text):
     text = re.sub(r"\s+", " ", text or "").strip()
     text = text.replace("ᴴᴰ", "").replace("HD", "").strip()
 
-    # Remove common OCR garbage caused by the OnePlay arrow/logo.
     text = re.sub(
         r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|FE|BE|AZ|Y|E|B|A|I|2)\s+",
         "",
@@ -87,19 +86,9 @@ def clean_ocr(text):
         flags=re.IGNORECASE,
     )
 
-    # Fix common OCR mistakes.
-    text = re.sub(
-        r".*TU\s*ISMO.*\((19|20)\d\d\)",
-        r"GRAN TURISMO (\1)",
-        text,
-        flags=re.IGNORECASE,
-    )
-
-    # Reject results that are only a year, like "(2022)".
     if re.fullmatch(r"\((19|20)\d\d\)", text):
         return ""
 
-    # Prefer movie title format like FAST X (2023).
     match = re.search(
         r"([A-Z0-9][A-Z0-9 :'\-&,.!]{3,})\s*\((19|20)\d\d\)",
         text.upper(),
@@ -257,7 +246,7 @@ def capture_title(channel, index):
 
 
 def write_xmltv(channels, titles):
-    now = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
+    now = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
     stop = now + timedelta(hours=PROGRAMME_HOURS)
 
     tv = ET.Element("tv", {
