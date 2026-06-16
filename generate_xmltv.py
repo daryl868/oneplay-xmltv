@@ -17,7 +17,7 @@ CROP_FILTER = os.getenv(
     "crop=700:150:0:950,scale=3000:-1"
 )
 
-PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "24"))
+PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "1"))
 MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
 
 
@@ -246,7 +246,7 @@ def capture_title(channel, index):
 
 
 def write_xmltv(channels, titles):
-    now = datetime.now(timezone.utc).replace(hour=0, minute=0, second=0, microsecond=0)
+    now = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
     stop = now + timedelta(hours=PROGRAMME_HOURS)
 
     tv = ET.Element("tv", {
