@@ -92,7 +92,6 @@ def clean_ocr(text):
         return ""
 
     # Prefer movie title format like FAST X (2023).
-    # Require at least 4 useful characters before the year.
     match = re.search(
         r"([A-Z0-9][A-Z0-9 :'\-&,.!]{3,})\s*\((19|20)\d\d\)",
         text.upper(),
@@ -260,7 +259,6 @@ def write_xmltv(channels, titles):
 
     for ch in channels:
         c = ET.SubElement(tv, "channel", id=ch["id"])
-
         ET.SubElement(c, "display-name", {"lang": "en"}).text = ch["name"]
 
         if ch.get("logo"):
@@ -270,20 +268,20 @@ def write_xmltv(channels, titles):
         detected_title = titles.get(ch["id"], ch["name"])
         clean_title, year = split_title_year(detected_title)
 
-        # Keep the year in the display title because that is what you want visible.
-        display_title = detected_title
-
         p = ET.SubElement(tv, "programme", {
             "channel": ch["id"],
             "start": now.strftime("%Y%m%d%H%M%S %z"),
             "stop": stop.strftime("%Y%m%d%H%M%S %z"),
         })
 
-        ET.SubElement(p, "title", {"lang": "en"}).text = display_title
-        ET.SubElement(p, "sub-title", {"lang": "en"}).text = clean_title
-        ET.SubElement(p, "desc", {"lang": "en"}).text = (
-            f"Now playing on {ch['name']}: {display_title}"
-        )
+        ET.SubElement(p, "title").text = clean_title
+
+        if year:
+            ET.SubElement(p, "sub-title").text = f"Movie ({year})"
+        else:
+            ET.SubElement(p, "sub-title").text = "Movie"
+
+        ET.SubElement(p, "desc").text = "24/7 channel"
         ET.SubElement(p, "category", {"lang": "en"}).text = "Movie"
 
         if year:
