@@ -101,7 +101,6 @@ def clean_ocr(text):
     if match:
         cleaned = match.group(0).strip()
 
-        # Reject titles that became only a year after cleanup.
         if re.fullmatch(r"\((19|20)\d\d\)", cleaned):
             return ""
 
@@ -120,6 +119,16 @@ def title_has_year(title):
     return bool(re.search(r"\((19|20)\d\d\)", title or ""))
 
 
+def split_title_year(title):
+    match = re.search(r"^(.*?)\s*\(((19|20)\d\d)\)\s*$", title or "")
+    if not match:
+        return title, ""
+
+    clean_title = match.group(1).strip()
+    year = match.group(2).strip()
+    return clean_title, year
+
+
 def score_title(title):
     if not title:
         return 0
@@ -129,10 +138,8 @@ def score_title(title):
     if title_has_year(title):
         score += 100
 
-    # Prefer longer, fuller OCR results.
     score += min(len(title), 80)
 
-    # Penalize obvious junk.
     if re.fullmatch(r"\d+\s*\((19|20)\d\d\)", title):
         score -= 50
 
@@ -146,7 +153,6 @@ def choose_best_title(detected_titles, fallback):
     if not detected_titles:
         return fallback
 
-    # First, prefer titles with a proper year and enough text.
     movie_titles = [
         t for t in detected_titles
         if title_has_year(t) and not re.fullmatch(r"\d+\s*\((19|20)\d\d\)", t)
@@ -172,7 +178,7 @@ def capture_title(channel, index):
     safe = f"{index:02d}_{channel['id']}"
     detected_titles = []
 
-    for n in range(1, 6):
+    for n in range(1, 4):
         shot = DEBUG_DIR / f"{safe}_shot_{n}.jpg"
         crop = DEBUG_DIR / f"{safe}_crop_{n}.jpg"
 
@@ -248,25 +254,43 @@ def write_xmltv(channels, titles):
     stop = now + timedelta(hours=PROGRAMME_HOURS)
 
     tv = ET.Element("tv", {
-        "generator-info-name": "OnePlay GitHub OCR XMLTV"
+        "generator-info-name": "OnePlay GitHub OCR XMLTV",
+        "source-info-name": "OnePlay OCR",
     })
 
     for ch in channels:
         c = ET.SubElement(tv, "channel", id=ch["id"])
-        ET.SubElement(c, "display-name").text = ch["name"]
+
+        ET.SubElement(c, "display-name", {"lang": "en"}).text = ch["name"]
 
         if ch.get("logo"):
             ET.SubElement(c, "icon", src=ch["logo"])
 
     for ch in channels:
+        detected_title = titles.get(ch["id"], ch["name"])
+        clean_title, year = split_title_year(detected_title)
+
+        # Keep the year in the display title because that is what you want visible.
+        display_title = detected_title
+
         p = ET.SubElement(tv, "programme", {
             "channel": ch["id"],
             "start": now.strftime("%Y%m%d%H%M%S %z"),
             "stop": stop.strftime("%Y%m%d%H%M%S %z"),
         })
 
-        ET.SubElement(p, "title").text = titles.get(ch["id"], ch["name"])
-        ET.SubElement(p, "desc").text = f"Auto-detected by OCR from {ch['name']}"
+        ET.SubElement(p, "title", {"lang": "en"}).text = display_title
+        ET.SubElement(p, "sub-title", {"lang": "en"}).text = clean_title
+        ET.SubElement(p, "desc", {"lang": "en"}).text = (
+            f"Now playing on {ch['name']}: {display_title}"
+        )
+        ET.SubElement(p, "category", {"lang": "en"}).text = "Movie"
+
+        if year:
+            ET.SubElement(p, "date").text = year
+
+        if ch.get("logo"):
+            ET.SubElement(p, "icon", src=ch["logo"])
 
     tree = ET.ElementTree(tv)
     ET.indent(tree, space="  ")
