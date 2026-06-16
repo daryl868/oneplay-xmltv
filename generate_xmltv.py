@@ -81,8 +81,16 @@ def clean_ocr(text):
 
     # Remove common OCR garbage caused by the OnePlay arrow/logo.
     text = re.sub(
-        r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|E|B|A|I|2)\s+",
+        r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|FE|BE|AZ|Y|E|B|A|I|2)\s+",
         "",
+        text,
+        flags=re.IGNORECASE,
+    )
+
+    # Fix common OCR mistakes.
+    text = re.sub(
+        r".*TU\s*ISMO.*\((19|20)\d\d\)",
+        r"GRAN TURISMO (\1)",
         text,
         flags=re.IGNORECASE,
     )
@@ -274,14 +282,14 @@ def write_xmltv(channels, titles):
             "stop": stop.strftime("%Y%m%d%H%M%S %z"),
         })
 
-        ET.SubElement(p, "title").text = clean_title
+        ET.SubElement(p, "title", {"lang": "en"}).text = clean_title
 
         if year:
-            ET.SubElement(p, "sub-title").text = f"Movie ({year})"
+            ET.SubElement(p, "sub-title", {"lang": "en"}).text = f"Movie ({year})"
         else:
-            ET.SubElement(p, "sub-title").text = "Movie"
+            ET.SubElement(p, "sub-title", {"lang": "en"}).text = "Movie"
 
-        ET.SubElement(p, "desc").text = "24/7 channel"
+        ET.SubElement(p, "desc", {"lang": "en"}).text = "24/7 channel"
         ET.SubElement(p, "category", {"lang": "en"}).text = "Movie"
 
         if year:
