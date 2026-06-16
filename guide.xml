@@ -149,7 +149,7 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </channel>
   <programme channel="oneplay.premiere.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">FAST X</title>
+    <title lang="en">INDIANA JONES: DIAL OF DESTINY</title>
     <sub-title lang="en">Movie (2023)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -165,10 +165,11 @@
     <icon src="https://iili.io/JV0yi6g.md.png" />
   </programme>
   <programme channel="oneplay.bestoff.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">7 7 tar: T x 2022 ) i!</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">AVATAR: THE WAY OF WATER</title>
+    <sub-title lang="en">Movie (2022)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2022</date>
     <icon src="https://iili.io/JV19FSf.md.png" />
   </programme>
   <programme channel="oneplay.action.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
@@ -196,11 +197,11 @@
     <icon src="https://iili.io/JV19VUJ.md.png" />
   </programme>
   <programme channel="oneplay.thriller.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">HARRY BROWN</title>
-    <sub-title lang="en">Movie (2009)</sub-title>
+    <title lang="en">SNITCH</title>
+    <sub-title lang="en">Movie (2013)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2009</date>
+    <date>2013</date>
     <icon src="https://iili.io/JV198fn.md.png" />
   </programme>
   <programme channel="oneplay.horror.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
@@ -212,7 +213,7 @@
     <icon src="https://iili.io/JV194R4.md.png" />
   </programme>
   <programme channel="oneplay.warzone.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">TORPED</title>
+    <title lang="en">MIDWAY</title>
     <sub-title lang="en">Movie (2019)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -220,21 +221,23 @@
     <icon src="https://iili.io/JV19sxS.md.png" />
   </programme>
   <programme channel="oneplay.family.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">f . . 7 A</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">SPACE JAM- A NEW LEGACY</title>
+    <sub-title lang="en">Movie (2021)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2021</date>
     <icon src="https://iili.io/JV1HdzB.md.png" />
   </programme>
   <programme channel="oneplay.romance.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">SS Pris 200m 2 intalelallint at pag Py</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">PRISCILA</title>
+    <sub-title lang="en">Movie (2023)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2023</date>
     <icon src="https://iili.io/JV1Hqga.md.png" />
   </programme>
   <programme channel="oneplay.fantasy.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">OF VENGEANCE</title>
+    <title lang="en">FISTFUL OF VENGEANCE</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -250,22 +253,23 @@
     <icon src="https://iili.io/JV1HML7.md.png" />
   </programme>
   <programme channel="oneplay.90s.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">FIGHT CLUB</title>
-    <sub-title lang="en">Movie (1999)</sub-title>
+    <title lang="en">THE SILENCE OF THE LAMBS</title>
+    <sub-title lang="en">Movie (1991)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>1999</date>
+    <date>1991</date>
     <icon src="https://iili.io/JV1HemQ.md.png" />
   </programme>
   <programme channel="oneplay.classics.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">The GodFather e fi: Uy I</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">THE GODFATHER</title>
+    <sub-title lang="en">Movie (1972)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>1972</date>
     <icon src="https://iili.io/JV1HgB1.md.png" />
   </programme>
   <programme channel="oneplay.disneyplus.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">MALEFICENT- MISTRESS OF EVIL</title>
+    <title lang="en">FROZEN II</title>
     <sub-title lang="en">Movie (2019)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -273,7 +277,7 @@
     <icon src="https://iili.io/boRnCF.md.png" />
   </programme>
   <programme channel="oneplay.marvel.1.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">THOR- THE DARK WORLD</title>
+    <title lang="en">E THOR- THE DARK WORLD</title>
     <sub-title lang="en">Movie (2013)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -281,30 +285,31 @@
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.marvel.2.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">Thor</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">THOR- THE DARK WORLD</title>
+    <sub-title lang="en">Movie (2013)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2013</date>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.007.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">007 - CASINO ROYAL</title>
-    <sub-title lang="en">Movie (2006)</sub-title>
+    <title lang="en">007 - QUANTUM OF SOLACE</title>
+    <sub-title lang="en">Movie (2008)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2006</date>
+    <date>2008</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.007classic.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">007 - THE SPY WHO LOVED ME</title>
-    <sub-title lang="en">Movie (1977)</sub-title>
+    <title lang="en">007 - LICENCE TO KILL</title>
+    <sub-title lang="en">Movie (1989)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>1977</date>
+    <date>1989</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.avengers.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">LIZ AVENGERS- AGE OF ULTRON</title>
+    <title lang="en">AVENGERS- AGE OF ULTRON</title>
     <sub-title lang="en">Movie (2015)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -312,27 +317,27 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.fastandfurious.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">FAST &amp; FURIOUS 8</title>
-    <sub-title lang="en">Movie (2017)</sub-title>
+    <title lang="en">FAST &amp; FURIOUS 9</title>
+    <sub-title lang="en">Movie (2021)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2017</date>
+    <date>2021</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.finaldestination.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">FINAL DESTINATION 3</title>
-    <sub-title lang="en">Movie (2006)</sub-title>
+    <title lang="en">LA FINAL DESTINATION 4</title>
+    <sub-title lang="en">Movie (2009)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2006</date>
+    <date>2009</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.harrypotter.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">HARRY POTTER 1</title>
-    <sub-title lang="en">Movie (2001)</sub-title>
+    <title lang="en">HARRY POTTER 2</title>
+    <sub-title lang="en">Movie (2002)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2001</date>
+    <date>2002</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.missionimpossible.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
@@ -344,7 +349,7 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.piratescaribbean.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">LEE PIRATES OF THE CARIBBEAN 5</title>
+    <title lang="en">PIRATES OF THE CARIBBEAN 5</title>
     <sub-title lang="en">Movie (2017)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -352,27 +357,27 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.saw.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">E SAW 4</title>
-    <sub-title lang="en">Movie (2007)</sub-title>
+    <title lang="en">SAW 5</title>
+    <sub-title lang="en">Movie (2008)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2007</date>
+    <date>2008</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.transformers.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">TRANSFORMERS- REVENGE OF THE FALLEN</title>
-    <sub-title lang="en">Movie (2009)</sub-title>
+    <title lang="en">LEE TRANSFORMERS- DARK OF THE MOON</title>
+    <sub-title lang="en">Movie (2011)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2009</date>
+    <date>2011</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.planet.of.apes.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">WAR FOR THE PLANET OF THE APES</title>
-    <sub-title lang="en">Movie (2017)</sub-title>
+    <title lang="en">RISE OF THE PLANET OF THE APES</title>
+    <sub-title lang="en">Movie (2011)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2017</date>
+    <date>2011</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.scream.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
@@ -392,7 +397,7 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.twilight.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">2 THE TWILIGHT SAGA- ECLIPSE</title>
+    <title lang="en">THE TWILIGHT SAGA- ECLIPSE</title>
     <sub-title lang="en">Movie (2010)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
@@ -400,19 +405,19 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.ocean.s.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">OCEAN'S TWELVE</title>
-    <sub-title lang="en">Movie (2004)</sub-title>
+    <title lang="en">OCEAN'S THIRTEEN</title>
+    <sub-title lang="en">Movie (2007)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2004</date>
+    <date>2007</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.expendables.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">THE EXPENDABLES 2</title>
-    <sub-title lang="en">Movie (2012)</sub-title>
+    <title lang="en">THE EXPENDABLES 3</title>
+    <sub-title lang="en">Movie (2014)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2012</date>
+    <date>2014</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.spiderman.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
@@ -424,19 +429,18 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.rambo.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">RAMBO: FIRST BLOOD 2</title>
-    <sub-title lang="en">Movie (1985)</sub-title>
+    <title lang="en">RAMBO 3</title>
+    <sub-title lang="en">Movie (1988)</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>1985</date>
+    <date>1988</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.dark.knight.hd" start="20260616000000 +0000" stop="20260617000000 +0000">
-    <title lang="en">THE BATMAN</title>
-    <sub-title lang="en">Movie (2022)</sub-title>
+    <title lang="en">r. b</title>
+    <sub-title lang="en">Movie</sub-title>
     <desc lang="en">24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2022</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
 </tv>
