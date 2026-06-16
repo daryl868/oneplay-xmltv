@@ -149,293 +149,296 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </channel>
   <programme channel="oneplay.premiere.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">ae Tu ismo ( : -, 2</title>
-    <sub-title lang="en">ae Tu ismo ( : -, 2</sub-title>
-    <desc lang="en">Now playing on OnePlay Premiere HD: ae Tu ismo ( : -, 2</desc>
+    <title>GRAN TURISMO</title>
+    <sub-title>Movie (2023)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2023</date>
     <icon src="https://iili.io/JV0y8yQ.md.png" />
   </programme>
   <programme channel="oneplay.extra.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">GUARDIANS OF GALAXY 3 (2023)</title>
-    <sub-title lang="en">GUARDIANS OF GALAXY 3</sub-title>
-    <desc lang="en">Now playing on OnePlay Extra HD: GUARDIANS OF GALAXY 3 (2023)</desc>
+    <title>GUARDIANS OF GALAXY 3</title>
+    <sub-title>Movie (2023)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2023</date>
     <icon src="https://iili.io/JV0yi6g.md.png" />
   </programme>
   <programme channel="oneplay.bestoff.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">OnePlay BestOff HD</title>
-    <sub-title lang="en">OnePlay BestOff HD</sub-title>
-    <desc lang="en">Now playing on OnePlay BestOff HD: OnePlay BestOff HD</desc>
+    <title>OnePlay BestOff HD</title>
+    <sub-title>Movie</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19FSf.md.png" />
   </programme>
   <programme channel="oneplay.action.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">Ser on si</title>
-    <sub-title lang="en">Ser on si</sub-title>
-    <desc lang="en">Now playing on OnePlay Action HD: Ser on si</desc>
+    <title>NIGHT TRAIN</title>
+    <sub-title>Movie (2023)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2023</date>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
   <programme channel="oneplay.actionplus1.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">UNCUT GEMS (2019)</title>
-    <sub-title lang="en">UNCUT GEMS</sub-title>
-    <desc lang="en">Now playing on OnePlay Action+1 HD: UNCUT GEMS (2019)</desc>
+    <title>UNCUT GEMS</title>
+    <sub-title>Movie (2019)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2019</date>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
   <programme channel="oneplay.comedy.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">SHE BIG SICK (2017)</title>
-    <sub-title lang="en">SHE BIG SICK</sub-title>
-    <desc lang="en">Now playing on OnePlay Comedy HD: SHE BIG SICK (2017)</desc>
+    <title>OnePlay Comedy HD</title>
+    <sub-title>Movie</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2017</date>
     <icon src="https://iili.io/JV19VUJ.md.png" />
   </programme>
   <programme channel="oneplay.thriller.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE INVESIBLE GUEST (2016)</title>
-    <sub-title lang="en">THE INVESIBLE GUEST</sub-title>
-    <desc lang="en">Now playing on OnePlay Thriller HD: THE INVESIBLE GUEST (2016)</desc>
+    <title>THE INVESIBLE GUEST</title>
+    <sub-title>Movie (2016)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2016</date>
     <icon src="https://iili.io/JV198fn.md.png" />
   </programme>
   <programme channel="oneplay.horror.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE POPE'S EXORCIST (2023)</title>
-    <sub-title lang="en">THE POPE'S EXORCIST</sub-title>
-    <desc lang="en">Now playing on OnePlay Horror HD: THE POPE'S EXORCIST (2023)</desc>
+    <title>Quicksand</title>
+    <sub-title>Movie</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2023</date>
     <icon src="https://iili.io/JV194R4.md.png" />
   </programme>
   <programme channel="oneplay.warzone.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">303 SQUADRON (2018)</title>
-    <sub-title lang="en">303 SQUADRON</sub-title>
-    <desc lang="en">Now playing on OnePlay Warzone HD: 303 SQUADRON (2018)</desc>
+    <title>Y 303 SQUADRON</title>
+    <sub-title>Movie (2018)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2018</date>
     <icon src="https://iili.io/JV19sxS.md.png" />
   </programme>
   <programme channel="oneplay.family.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">SECRET HEADQUARTERS (2022)</title>
-    <sub-title lang="en">SECRET HEADQUARTERS</sub-title>
-    <desc lang="en">Now playing on OnePlay Family HD: SECRET HEADQUARTERS (2022)</desc>
+    <title>SECRET HEADQUARTERS</title>
+    <sub-title>Movie (2022)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2022</date>
     <icon src="https://iili.io/JV1HdzB.md.png" />
   </programme>
   <programme channel="oneplay.romance.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">FLOAT (2024)</title>
-    <sub-title lang="en">FLOAT</sub-title>
-    <desc lang="en">Now playing on OnePlay Romance HD: FLOAT (2024)</desc>
+    <title>FLOAT</title>
+    <sub-title>Movie (2024)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2024</date>
     <icon src="https://iili.io/JV1Hqga.md.png" />
   </programme>
   <programme channel="oneplay.fantasy.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">7 . I PAN &amp; WENDY (2023)</title>
-    <sub-title lang="en">7 . I PAN &amp; WENDY</sub-title>
-    <desc lang="en">Now playing on OnePlay Fantasy HD: 7 . I PAN &amp; WENDY (2023)</desc>
+    <title>PETER PAN &amp; WENDY</title>
+    <sub-title>Movie (2023)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2023</date>
     <icon src="https://iili.io/JV1HoeR.md.png" />
   </programme>
   <programme channel="oneplay.western.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE DARK VALLEY (2014)</title>
-    <sub-title lang="en">THE DARK VALLEY</sub-title>
-    <desc lang="en">Now playing on OnePlay Western HD: THE DARK VALLEY (2014)</desc>
+    <title>THE DARK VALLEY</title>
+    <sub-title>Movie (2014)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2014</date>
     <icon src="https://iili.io/JV1HML7.md.png" />
   </programme>
   <programme channel="oneplay.90s.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">PULP FICTION (1994)</title>
-    <sub-title lang="en">PULP FICTION</sub-title>
-    <desc lang="en">Now playing on OnePlay 90s HD: PULP FICTION (1994)</desc>
+    <title>PULP FICTION</title>
+    <sub-title>Movie (1994)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>1994</date>
     <icon src="https://iili.io/JV1HemQ.md.png" />
   </programme>
   <programme channel="oneplay.classics.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE BRIDGE ON THE RIVER KWAI (1957)</title>
-    <sub-title lang="en">THE BRIDGE ON THE RIVER KWAI</sub-title>
-    <desc lang="en">Now playing on OnePlay Classics HD: THE BRIDGE ON THE RIVER KWAI (1957)</desc>
+    <title>THE 7</title>
+    <sub-title>Movie (1973)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>1957</date>
+    <date>1973</date>
     <icon src="https://iili.io/JV1HgB1.md.png" />
   </programme>
   <programme channel="oneplay.disneyplus.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">ALADDIN (2019)</title>
-    <sub-title lang="en">ALADDIN</sub-title>
-    <desc lang="en">Now playing on OnePlay Disney+ HD: ALADDIN (2019)</desc>
+    <title>ALADDIN</title>
+    <sub-title>Movie (2019)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2019</date>
     <icon src="https://iili.io/boRnCF.md.png" />
   </programme>
   <programme channel="oneplay.marvel.1.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">OnePlay Marvel 1 HD</title>
-    <sub-title lang="en">OnePlay Marvel 1 HD</sub-title>
-    <desc lang="en">Now playing on OnePlay Marvel 1 HD: OnePlay Marvel 1 HD</desc>
+    <title>BE IRON MAN 3</title>
+    <sub-title>Movie (2013)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2013</date>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.marvel.2.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">IRON MAN 3 (2013)</title>
-    <sub-title lang="en">IRON MAN 3</sub-title>
-    <desc lang="en">Now playing on OnePlay Marvel 2 HD: IRON MAN 3 (2013)</desc>
+    <title>IRON MAN 3</title>
+    <sub-title>Movie (2013)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2013</date>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.007.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">2 007 - QUANTUM OF SOLACE (2008)</title>
-    <sub-title lang="en">2 007 - QUANTUM OF SOLACE</sub-title>
-    <desc lang="en">Now playing on OnePlay - 007 HD: 2 007 - QUANTUM OF SOLACE (2008)</desc>
+    <title>FE 007 - QUANTUM OF SOLACE</title>
+    <sub-title>Movie (2008)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2008</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.007classic.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">007 - NEVER SAY NEVER AGAIN (1983)</title>
-    <sub-title lang="en">007 - NEVER SAY NEVER AGAIN</sub-title>
-    <desc lang="en">Now playing on OnePlay - 007classic HD: 007 - NEVER SAY NEVER AGAIN (1983)</desc>
+    <title>FE 007 - NEVER SAY NEVER AGAIN</title>
+    <sub-title>Movie (1983)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>1983</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.avengers.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">LIT AVENGERS- AGE OF ULTRON (2015)</title>
-    <sub-title lang="en">LIT AVENGERS- AGE OF ULTRON</sub-title>
-    <desc lang="en">Now playing on OnePlay - Avengers HD: LIT AVENGERS- AGE OF ULTRON (2015)</desc>
+    <title>AVENGERS- AGE OF ULTRON</title>
+    <sub-title>Movie (2015)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2015</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.fastandfurious.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">FAST &amp; FURIOUS 8 (2017)</title>
-    <sub-title lang="en">FAST &amp; FURIOUS 8</sub-title>
-    <desc lang="en">Now playing on OnePlay - Fast&amp;Furious HD: FAST &amp; FURIOUS 8 (2017)</desc>
+    <title>FAST &amp; FURIOUS 8</title>
+    <sub-title>Movie (2017)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2017</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.finaldestination.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">OnePlay - FinalDestination HD</title>
-    <sub-title lang="en">OnePlay - FinalDestination HD</sub-title>
-    <desc lang="en">Now playing on OnePlay - FinalDestination HD: OnePlay - FinalDestination HD</desc>
+    <title>FINAL DESTINATION 1</title>
+    <sub-title>Movie (2000)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2000</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.harrypotter.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">Harry (2002)</title>
-    <sub-title lang="en">Harry</sub-title>
-    <desc lang="en">Now playing on OnePlay - HarryPotter HD: Harry (2002)</desc>
+    <title>HARRY POTTER 2</title>
+    <sub-title>Movie (2002)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2002</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.missionimpossible.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">MISSION- IMPOSSIBLE 3 (2006)</title>
-    <sub-title lang="en">MISSION- IMPOSSIBLE 3</sub-title>
-    <desc lang="en">Now playing on OnePlay - MissionImpossible HD: MISSION- IMPOSSIBLE 3 (2006)</desc>
+    <title>MISSION- IMPOSSIBLE 3</title>
+    <sub-title>Movie (2006)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2006</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.piratescaribbean.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">Pirates of the 2 (2006)</title>
-    <sub-title lang="en">Pirates of the 2</sub-title>
-    <desc lang="en">Now playing on OnePlay - PiratesCaribbean HD: Pirates of the 2 (2006)</desc>
+    <title>BE PIRATES OF THE CARIBBEAN 2</title>
+    <sub-title>Movie (2006)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2006</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.saw.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">JIGSAW (2017)</title>
-    <sub-title lang="en">JIGSAW</sub-title>
-    <desc lang="en">Now playing on OnePlay - Saw HD: JIGSAW (2017)</desc>
+    <title>JIGSAW</title>
+    <sub-title>Movie (2017)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2017</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.transformers.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">TRANSFORMERS- DARK OF THE MOON (2011)</title>
-    <sub-title lang="en">TRANSFORMERS- DARK OF THE MOON</sub-title>
-    <desc lang="en">Now playing on OnePlay - Transformers HD: TRANSFORMERS- DARK OF THE MOON (2011)</desc>
+    <title>AZ TRANSFORMERS- DARK OF THE MOON</title>
+    <sub-title>Movie (2011)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2011</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.planet.of.apes.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">WAR FOR THE PLANET OF THE APES (2017)</title>
-    <sub-title lang="en">WAR FOR THE PLANET OF THE APES</sub-title>
-    <desc lang="en">Now playing on OnePlay - Planet of Apes HD: WAR FOR THE PLANET OF THE APES (2017)</desc>
+    <title>WAR FOR THE PLANET OF THE APES</title>
+    <sub-title>Movie (2017)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2017</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.scream.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">SCREAM 1 (1996)</title>
-    <sub-title lang="en">SCREAM 1</sub-title>
-    <desc lang="en">Now playing on OnePlay - Scream HD: SCREAM 1 (1996)</desc>
+    <title>SCREAM 1</title>
+    <sub-title>Movie (1996)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>1996</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.star.wars.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">STARWARS: THE PHANTOM MENACE (1999)</title>
-    <sub-title lang="en">STARWARS: THE PHANTOM MENACE</sub-title>
-    <desc lang="en">Now playing on OnePlay - Star Wars HD: STARWARS: THE PHANTOM MENACE (1999)</desc>
+    <title>STARWARS: THE PHANTOM MENACE</title>
+    <sub-title>Movie (1999)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>1999</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.twilight.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE 7 SAGA- ECLIPSE (2010)</title>
-    <sub-title lang="en">THE 7 SAGA- ECLIPSE</sub-title>
-    <desc lang="en">Now playing on OnePlay - The Twilight HD: THE 7 SAGA- ECLIPSE (2010)</desc>
+    <title>THE TWILIGHT SAGA- ECLIPSE</title>
+    <sub-title>Movie (2010)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2010</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.ocean.s.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">OCEAN'S ELEVEN (2001)</title>
-    <sub-title lang="en">OCEAN'S ELEVEN</sub-title>
-    <desc lang="en">Now playing on OnePlay - Ocean's HD: OCEAN'S ELEVEN (2001)</desc>
+    <title>OCEAN'S ELEVEN</title>
+    <sub-title>Movie (2001)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2001</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.expendables.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE EXPENDABLES (2010)</title>
-    <sub-title lang="en">THE EXPENDABLES</sub-title>
-    <desc lang="en">Now playing on OnePlay - The Expendables HD: THE EXPENDABLES (2010)</desc>
+    <title>THE EXPENDABLES</title>
+    <sub-title>Movie (2010)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2010</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.spiderman.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">THE AMAZING SPIDER-MAN (2012)</title>
-    <sub-title lang="en">THE AMAZING SPIDER-MAN</sub-title>
-    <desc lang="en">Now playing on OnePlay - SpiderMan HD: THE AMAZING SPIDER-MAN (2012)</desc>
+    <title>THE AMAZING SPIDER-MAN</title>
+    <sub-title>Movie (2012)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
     <date>2012</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.rambo.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">RAMBO: LAST BLOOD (2019)</title>
-    <sub-title lang="en">RAMBO: LAST BLOOD</sub-title>
-    <desc lang="en">Now playing on OnePlay - Rambo HD: RAMBO: LAST BLOOD (2019)</desc>
+    <title>RAMBO: FIRST BLOOD</title>
+    <sub-title>Movie (1982)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
-    <date>2019</date>
+    <date>1982</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.dark.knight.hd" start="20260616020000 +0000" stop="20260616040000 +0000">
-    <title lang="en">The Dark Knight: ji</title>
-    <sub-title lang="en">The Dark Knight: ji</sub-title>
-    <desc lang="en">Now playing on OnePlay - The Dark Knight HD: The Dark Knight: ji</desc>
+    <title>THE DARK KNIGHT: RISES</title>
+    <sub-title>Movie (2012)</sub-title>
+    <desc>24/7 channel</desc>
     <category lang="en">Movie</category>
+    <date>2012</date>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
 </tv>
