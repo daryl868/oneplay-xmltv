@@ -94,7 +94,10 @@ def clean_ocr(text):
     )
 
     if match:
-        return match.group(0).strip()
+        cleaned = match.group(0).strip()
+        if re.fullmatch(r"\((19|20)\d\d\)", cleaned):
+            return ""
+        return cleaned
 
     text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" -:|.")
@@ -124,17 +127,29 @@ def is_junk_title(title):
     if re.fullmatch(r"[A-Z]{1,3}", upper):
         return True
 
-    if re.search(r"\b(VORA|AE|EE|IE|LS|OCR|NULL|IMG|JPG)\b", upper):
+    if re.search(r"\b(VORA|AE|EE|IE|LS|OCR|NULL|IMG|JPG|HET)\b", upper):
         return True
 
     letters = re.sub(r"[^A-Za-z]", "", value)
     if len(letters) < 5:
         return True
 
+    # Reject OCR gibberish with very few vowels.
+    if not title_has_year(value):
+        vowels = len(re.findall(r"[AEIOUaeiou]", letters))
+        if len(letters) > 0 and vowels / len(letters) < 0.20:
+            return True
+
+    # If no year, require at least two decent words.
     if not title_has_year(value):
         words = re.findall(r"[A-Za-z]{3,}", value)
         if len(words) < 2:
             return True
+
+    # Reject titles that are mostly symbols/numbers.
+    useful_chars = re.sub(r"[^A-Za-z0-9]", "", value)
+    if len(useful_chars) < 5:
+        return True
 
     return False
 
@@ -174,11 +189,16 @@ def choose_best_title(detected_titles, fallback):
     candidates = movie_titles if movie_titles else valid_titles
     counts = Counter(candidates)
 
-    return sorted(
+    best = sorted(
         candidates,
         key=lambda t: (counts[t], score_title(t)),
         reverse=True,
     )[0]
+
+    if score_title(best) < 20:
+        return fallback
+
+    return best
 
 
 def capture_title(channel, index):
@@ -274,7 +294,9 @@ def write_xmltv(channels, titles):
         else:
             ET.SubElement(p, "sub-title", {"lang": "en"}).text = "Movie"
 
-        ET.SubElement(p, "desc", {"lang": "en"}).text = f"24/7 channel - OCR detected at {capture_time}"
+        ET.SubElement(p, "desc", {"lang": "en"}).text = (
+            f"24/7 channel - OCR detected at {capture_time}"
+        )
         ET.SubElement(p, "category", {"lang": "en"}).text = "Movie"
 
         if ch.get("logo"):
