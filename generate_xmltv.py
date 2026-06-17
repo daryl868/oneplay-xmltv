@@ -40,7 +40,6 @@ def parse_m3u(path):
 
     for line in lines:
         line = line.strip()
-
         if not line:
             continue
 
@@ -51,7 +50,6 @@ def parse_m3u(path):
                 if "," in line
                 else attrs.get("tvg-name", "Channel")
             )
-
             pending = {
                 "name": attrs.get("tvg-name") or display_name,
                 "display_name": display_name,
@@ -69,12 +67,11 @@ def parse_m3u(path):
 
 
 def run_cmd(cmd, timeout=45):
-    return subprocess.run(
-        cmd,
-        text=True,
-        capture_output=True,
-        timeout=timeout,
-    )
+    return subprocess.run(cmd, text=True, capture_output=True, timeout=timeout)
+
+
+def title_has_year(title):
+    return bool(re.search(r"\((19|20)\d\d\)", title or ""))
 
 
 def clean_ocr(text):
@@ -97,31 +94,49 @@ def clean_ocr(text):
     )
 
     if match:
-        cleaned = match.group(0).strip()
-        if re.fullmatch(r"\((19|20)\d\d\)", cleaned):
-            return ""
-        return cleaned
+        return match.group(0).strip()
 
     text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" -:|.")
 
-    if len(text) < 4:
-        return ""
-
-    # Reject obvious OCR junk without a year.
-    letters = re.sub(r"[^A-Za-z]", "", text)
-    if len(letters) < 5:
-        return ""
-
-    junk_words = {"VORA", "EE", "AE", "IE", "LS", "NY"}
-    if text.upper().replace(" ", "") in junk_words:
+    if is_junk_title(text):
         return ""
 
     return text
 
 
-def title_has_year(title):
-    return bool(re.search(r"\((19|20)\d\d\)", title or ""))
+def is_junk_title(title):
+    if not title:
+        return True
+
+    value = title.strip()
+    upper = value.upper()
+
+    if len(value) < 5:
+        return True
+
+    if re.fullmatch(r"\d+", value):
+        return True
+
+    if re.fullmatch(r"\((19|20)\d\d\)", value):
+        return True
+
+    if re.fullmatch(r"[A-Z]{1,3}", upper):
+        return True
+
+    if re.search(r"\b(VORA|AE|EE|IE|LS|OCR|NULL|IMG|JPG)\b", upper):
+        return True
+
+    letters = re.sub(r"[^A-Za-z]", "", value)
+    if len(letters) < 5:
+        return True
+
+    if not title_has_year(value):
+        words = re.findall(r"[A-Za-z]{3,}", value)
+        if len(words) < 2:
+            return True
+
+    return False
 
 
 def split_title_year(title):
@@ -129,14 +144,12 @@ def split_title_year(title):
     if not match:
         return title, ""
 
-    clean_title = match.group(1).strip()
-    year = match.group(2).strip()
-    return clean_title, year
+    return match.group(1).strip(), match.group(2).strip()
 
 
 def score_title(title):
-    if not title:
-        return 0
+    if is_junk_title(title):
+        return -999
 
     score = 0
 
@@ -145,48 +158,27 @@ def score_title(title):
 
     score += min(len(title), 80)
 
-    if re.fullmatch(r"\d+\s*\((19|20)\d\d\)", title):
-        score -= 100
-
-    if len(title.replace(" ", "")) < 4:
-        score -= 100
-
-    # Prefer real-looking titles over junk fragments.
     words = re.findall(r"[A-Za-z0-9]+", title)
-    if len(words) >= 2:
-        score += 10
+    score += len(words) * 5
 
     return score
 
 
 def choose_best_title(detected_titles, fallback):
-    if not detected_titles:
+    valid_titles = [t for t in detected_titles if not is_junk_title(t)]
+
+    if not valid_titles:
         return fallback
 
-    movie_titles = [
-        t for t in detected_titles
-        if title_has_year(t) and not re.fullmatch(r"\d+\s*\((19|20)\d\d\)", t)
-    ]
+    movie_titles = [t for t in valid_titles if title_has_year(t)]
+    candidates = movie_titles if movie_titles else valid_titles
+    counts = Counter(candidates)
 
-    if movie_titles:
-        counts = Counter(movie_titles)
-        return sorted(
-            movie_titles,
-            key=lambda t: (counts[t], score_title(t)),
-            reverse=True,
-        )[0]
-
-    counts = Counter(detected_titles)
-    best = sorted(
-        detected_titles,
+    return sorted(
+        candidates,
         key=lambda t: (counts[t], score_title(t)),
         reverse=True,
     )[0]
-
-    if score_title(best) < 10:
-        return fallback
-
-    return best
 
 
 def capture_title(channel, index):
@@ -199,21 +191,12 @@ def capture_title(channel, index):
         print(f"  Capturing frame {n}...", flush=True)
 
         cap = run_cmd([
-            "ffmpeg",
-            "-y",
-            "-hide_banner",
-            "-loglevel",
-            "error",
-            "-rw_timeout",
-            "15000000",
-            "-timeout",
-            "15000000",
-            "-i",
-            channel["url"],
-            "-t",
-            "8",
-            "-frames:v",
-            "1",
+            "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+            "-rw_timeout", "15000000",
+            "-timeout", "15000000",
+            "-i", channel["url"],
+            "-t", "8",
+            "-frames:v", "1",
             str(shot),
         ], timeout=35)
 
@@ -227,20 +210,13 @@ def capture_title(channel, index):
             crop = DEBUG_DIR / f"{safe}_crop_{n}_{crop_index}.jpg"
 
             crop_cmd = run_cmd([
-                "ffmpeg",
-                "-y",
-                "-hide_banner",
-                "-loglevel",
-                "error",
-                "-i",
-                str(shot),
-                "-vf",
-                crop_filter,
+                "ffmpeg", "-y", "-hide_banner", "-loglevel", "error",
+                "-i", str(shot),
+                "-vf", crop_filter,
                 str(crop),
             ], timeout=30)
 
             if crop_cmd.returncode != 0 or not crop.exists():
-                print(f"  Crop {crop_index} failed: {crop_cmd.stderr[:300]}", flush=True)
                 continue
 
             ocr = run_cmd([
@@ -252,7 +228,6 @@ def capture_title(channel, index):
             ], timeout=30)
 
             if ocr.returncode != 0:
-                print(f"  OCR failed: {ocr.stderr[:300]}", flush=True)
                 continue
 
             title = clean_ocr(ocr.stdout)
@@ -267,6 +242,7 @@ def capture_title(channel, index):
 def write_xmltv(channels, titles):
     now = datetime.now(timezone.utc).replace(minute=0, second=0, microsecond=0)
     stop = now + timedelta(hours=PROGRAMME_HOURS)
+    capture_time = datetime.now(timezone.utc).strftime("%Y-%m-%d %H:%M UTC")
 
     tv = ET.Element("tv", {
         "generator-info-name": "OnePlay GitHub OCR XMLTV",
@@ -294,14 +270,12 @@ def write_xmltv(channels, titles):
 
         if year:
             ET.SubElement(p, "sub-title", {"lang": "en"}).text = f"Movie ({year})"
+            ET.SubElement(p, "date").text = year
         else:
             ET.SubElement(p, "sub-title", {"lang": "en"}).text = "Movie"
 
-        ET.SubElement(p, "desc", {"lang": "en"}).text = "24/7 channel"
+        ET.SubElement(p, "desc", {"lang": "en"}).text = f"24/7 channel - OCR detected at {capture_time}"
         ET.SubElement(p, "category", {"lang": "en"}).text = "Movie"
-
-        if year:
-            ET.SubElement(p, "date").text = year
 
         if ch.get("logo"):
             ET.SubElement(p, "icon", src=ch["logo"])
