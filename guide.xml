@@ -189,9 +189,8 @@
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
   <programme channel="oneplay.comedy.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">THE BIG SICK</title>
-    <sub-title lang="en">Movie (2017)</sub-title>
-    <date>2017</date>
+    <title lang="en">OnePlay Comedy HD</title>
+    <sub-title lang="en">Movie</sub-title>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19VUJ.md.png" />
@@ -236,7 +235,7 @@
     <icon src="https://iili.io/JV1Hqga.md.png" />
   </programme>
   <programme channel="oneplay.fantasy.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">ROALD DAHL'S MATILDA THE MUSICAL</title>
+    <title lang="en">ROALD DAHI'S MATILDA THE MUSICAL</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
@@ -316,7 +315,7 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.fastandfurious.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">2 FAST &amp; FURIOUS 3</title>
+    <title lang="en">FAST &amp; FURIOUS 3</title>
     <sub-title lang="en">Movie (2006)</sub-title>
     <date>2006</date>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
@@ -340,7 +339,7 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.missionimpossible.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">MISSION- IMPOSSIBLE: FALLOUT</title>
+    <title lang="en">LA MISSION- IMPOSSIBLE: FALLOUT</title>
     <sub-title lang="en">Movie (2018)</sub-title>
     <date>2018</date>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
@@ -348,9 +347,8 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.piratescaribbean.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">PIRATES OF THE CARIBBEAN 1</title>
-    <sub-title lang="en">Movie (2003)</sub-title>
-    <date>2003</date>
+    <title lang="en">OnePlay - PiratesCaribbean HD</title>
+    <sub-title lang="en">Movie</sub-title>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
@@ -396,8 +394,9 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.the.twilight.hd" start="20260617230000 +0000" stop="20260618010000 +0000">
-    <title lang="en">OnePlay - The Twilight HD</title>
-    <sub-title lang="en">Movie</sub-title>
+    <title lang="en">THE TWILIGHT SAGA- ECLIPSE</title>
+    <sub-title lang="en">Movie (2010)</sub-title>
+    <date>2010</date>
     <desc lang="en">24/7 channel - OCR detected at 2026-06-17 23:17 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
