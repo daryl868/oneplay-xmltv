@@ -12,10 +12,12 @@ OUTPUT_FILE = "guide.xml"
 DEBUG_DIR = Path("debug")
 DEBUG_DIR.mkdir(exist_ok=True)
 
-CROP_FILTER = os.getenv(
-    "CROP_FILTER",
-    "crop=700:150:0:950,scale=3000:-1"
-)
+CROP_FILTERS = [
+    "crop=700:150:0:950,scale=3000:-1",
+    "crop=900:180:0:900,scale=3000:-1",
+    "crop=1100:220:0:850,scale=3000:-1",
+    "crop=1200:260:0:800,scale=3000:-1",
+]
 
 PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
 MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
@@ -80,7 +82,7 @@ def clean_ocr(text):
     text = text.replace("ᴴᴰ", "").replace("HD", "").strip()
 
     text = re.sub(
-        r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|FE|BE|AZ|Y|E|B|A|I|2)\s+",
+        r"^(IE|IZ|IP|LIE|LE|LZ|ZZ|PP|IFS|ES|KE|JP|WR|HE|FE|BE|AZ|Y|E|B|A|I|LS|2)\s+",
         "",
         text,
         flags=re.IGNORECASE,
@@ -96,16 +98,23 @@ def clean_ocr(text):
 
     if match:
         cleaned = match.group(0).strip()
-
         if re.fullmatch(r"\((19|20)\d\d\)", cleaned):
             return ""
-
         return cleaned
 
     text = re.sub(r"[^A-Za-z0-9 '&:,.!()\-]+", " ", text)
     text = re.sub(r"\s+", " ", text).strip(" -:|.")
 
     if len(text) < 4:
+        return ""
+
+    # Reject obvious OCR junk without a year.
+    letters = re.sub(r"[^A-Za-z]", "", text)
+    if len(letters) < 5:
+        return ""
+
+    junk_words = {"VORA", "EE", "AE", "IE", "LS", "NY"}
+    if text.upper().replace(" ", "") in junk_words:
         return ""
 
     return text
@@ -137,10 +146,15 @@ def score_title(title):
     score += min(len(title), 80)
 
     if re.fullmatch(r"\d+\s*\((19|20)\d\d\)", title):
-        score -= 50
+        score -= 100
 
     if len(title.replace(" ", "")) < 4:
-        score -= 50
+        score -= 100
+
+    # Prefer real-looking titles over junk fragments.
+    words = re.findall(r"[A-Za-z0-9]+", title)
+    if len(words) >= 2:
+        score += 10
 
     return score
 
@@ -163,11 +177,16 @@ def choose_best_title(detected_titles, fallback):
         )[0]
 
     counts = Counter(detected_titles)
-    return sorted(
+    best = sorted(
         detected_titles,
         key=lambda t: (counts[t], score_title(t)),
         reverse=True,
     )[0]
+
+    if score_title(best) < 10:
+        return fallback
+
+    return best
 
 
 def capture_title(channel, index):
@@ -176,7 +195,6 @@ def capture_title(channel, index):
 
     for n in range(1, 4):
         shot = DEBUG_DIR / f"{safe}_shot_{n}.jpg"
-        crop = DEBUG_DIR / f"{safe}_crop_{n}.jpg"
 
         print(f"  Capturing frame {n}...", flush=True)
 
@@ -205,42 +223,43 @@ def capture_title(channel, index):
 
         print("  Screenshot captured", flush=True)
 
-        crop_cmd = run_cmd([
-            "ffmpeg",
-            "-y",
-            "-hide_banner",
-            "-loglevel",
-            "error",
-            "-i",
-            str(shot),
-            "-vf",
-            CROP_FILTER,
-            str(crop),
-        ], timeout=30)
+        for crop_index, crop_filter in enumerate(CROP_FILTERS, start=1):
+            crop = DEBUG_DIR / f"{safe}_crop_{n}_{crop_index}.jpg"
 
-        if crop_cmd.returncode != 0 or not crop.exists():
-            print(f"  Crop failed: {crop_cmd.stderr[:500]}", flush=True)
-            continue
+            crop_cmd = run_cmd([
+                "ffmpeg",
+                "-y",
+                "-hide_banner",
+                "-loglevel",
+                "error",
+                "-i",
+                str(shot),
+                "-vf",
+                crop_filter,
+                str(crop),
+            ], timeout=30)
 
-        print("  Crop created", flush=True)
+            if crop_cmd.returncode != 0 or not crop.exists():
+                print(f"  Crop {crop_index} failed: {crop_cmd.stderr[:300]}", flush=True)
+                continue
 
-        ocr = run_cmd([
-            "tesseract",
-            str(crop),
-            "stdout",
-            "--psm",
-            "7",
-        ], timeout=30)
+            ocr = run_cmd([
+                "tesseract",
+                str(crop),
+                "stdout",
+                "--psm",
+                "7",
+            ], timeout=30)
 
-        if ocr.returncode != 0:
-            print(f"  OCR failed: {ocr.stderr[:500]}", flush=True)
-            continue
+            if ocr.returncode != 0:
+                print(f"  OCR failed: {ocr.stderr[:300]}", flush=True)
+                continue
 
-        title = clean_ocr(ocr.stdout)
-        print(f"  OCR result: {title}", flush=True)
+            title = clean_ocr(ocr.stdout)
+            print(f"  OCR crop {crop_index}: {title}", flush=True)
 
-        if title:
-            detected_titles.append(title)
+            if title:
+                detected_titles.append(title)
 
     return choose_best_title(detected_titles, channel["name"])
 
