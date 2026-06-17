@@ -17,7 +17,7 @@ CROP_FILTER = os.getenv(
     "crop=700:150:0:950,scale=3000:-1"
 )
 
-PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "1"))
+PROGRAMME_HOURS = int(os.getenv("PROGRAMME_HOURS", "2"))
 MAX_CHANNELS = int(os.getenv("MAX_CHANNELS", "0"))
 
 
