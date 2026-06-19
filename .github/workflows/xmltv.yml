@@ -1,12 +1,7 @@
 name: Generate XMLTV
 
 on:
-  schedule:
-    workflow_dispatch:
-
-concurrency:
-  group: xmltv
-  cancel-in-progress: false
+  workflow_dispatch:
 
 permissions:
   contents: write
@@ -29,6 +24,6 @@ jobs:
       - run: |
           git config user.name "github-actions"
           git config user.email "github-actions@github.com"
-          git add guide.xml debug/
+          git add guide.xml
           git commit -m "Update XMLTV" || exit 0
           git push
