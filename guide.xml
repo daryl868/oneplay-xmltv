@@ -148,281 +148,283 @@
     <display-name lang="en">OnePlay - The Dark Knight HD</display-name>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </channel>
-  <programme channel="oneplay.premiere.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.premiere.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">FREELANCE</title>
     <sub-title lang="en">Movie (2023)</sub-title>
     <date>2023</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV0y8yQ.md.png" />
   </programme>
-  <programme channel="oneplay.extra.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay Extra HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.extra.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">RETRIBUTION</title>
+    <sub-title lang="en">Movie (2023)</sub-title>
+    <date>2023</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV0yi6g.md.png" />
   </programme>
-  <programme channel="oneplay.bestoff.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">SOODRETAS</title>
+  <programme channel="oneplay.bestoff.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">GOODFELLAS</title>
     <sub-title lang="en">Movie (1990)</sub-title>
     <date>1990</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19FSf.md.png" />
   </programme>
-  <programme channel="oneplay.action.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.action.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">THE SYSTEM</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
-  <programme channel="oneplay.actionplus1.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">END OF GUN</title>
-    <sub-title lang="en">Movie (2016)</sub-title>
-    <date>2016</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.actionplus1.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">DEN OF THIEVES</title>
+    <sub-title lang="en">Movie (2018)</sub-title>
+    <date>2018</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
-  <programme channel="oneplay.comedy.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">THE BIG SICK</title>
+  <programme channel="oneplay.comedy.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">SP THE I SICK</title>
     <sub-title lang="en">Movie (2017)</sub-title>
     <date>2017</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19VUJ.md.png" />
   </programme>
-  <programme channel="oneplay.thriller.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.thriller.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">GONE GIRL</title>
     <sub-title lang="en">Movie (2014)</sub-title>
     <date>2014</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV198fn.md.png" />
   </programme>
-  <programme channel="oneplay.horror.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.horror.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">INSIDIOUS: RED DOOR</title>
     <sub-title lang="en">Movie (2023)</sub-title>
     <date>2023</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV194R4.md.png" />
   </programme>
-  <programme channel="oneplay.warzone.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.warzone.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">OnePlay Warzone HD</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19sxS.md.png" />
   </programme>
-  <programme channel="oneplay.family.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay Family HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.family.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">CLIFFORD THE BIG RED DOG</title>
+    <sub-title lang="en">Movie (2021)</sub-title>
+    <date>2021</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HdzB.md.png" />
   </programme>
-  <programme channel="oneplay.romance.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">S No Hard Feeling</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.romance.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">NO HARD FEELINGS</title>
+    <sub-title lang="en">Movie (2023)</sub-title>
+    <date>2023</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1Hqga.md.png" />
   </programme>
-  <programme channel="oneplay.fantasy.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.fantasy.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">OnePlay Fantasy HD</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HoeR.md.png" />
   </programme>
-  <programme channel="oneplay.western.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.western.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">OnePlay Western HD</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HML7.md.png" />
   </programme>
-  <programme channel="oneplay.90s.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">Cong em eens Lo92)</title>
+  <programme channel="oneplay.90s.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">cood wit Hunting 7</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HemQ.md.png" />
   </programme>
-  <programme channel="oneplay.classics.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.classics.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">OnePlay Classics HD</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HgB1.md.png" />
   </programme>
-  <programme channel="oneplay.disneyplus.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">LIG THE LION KING</title>
+  <programme channel="oneplay.disneyplus.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">THE LION KING</title>
     <sub-title lang="en">Movie (2019)</sub-title>
     <date>2019</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/boRnCF.md.png" />
   </programme>
-  <programme channel="oneplay.marvel.1.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">IRON MAN 2</title>
-    <sub-title lang="en">Movie (2010)</sub-title>
-    <date>2010</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.marvel.1.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay Marvel 1 HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
-  <programme channel="oneplay.marvel.2.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">IRON MAN 2</title>
-    <sub-title lang="en">Movie (2010)</sub-title>
-    <date>2010</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvEZP.md.png" />
-  </programme>
-  <programme channel="oneplay.007.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - 007 HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.007classic.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - 007classic HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.avengers.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - Avengers HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.fastandfurious.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - Fast&amp;Furious HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.finaldestination.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - FinalDestination HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.harrypotter.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - HarryPotter HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.missionimpossible.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - MissionImpossible HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.piratescaribbean.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - PiratesCaribbean HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.saw.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - Saw HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.transformers.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OnePlay - Transformers HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
-    <category lang="en">Movie</category>
-    <icon src="https://iili.io/bnvmPe.md.png" />
-  </programme>
-  <programme channel="oneplay.planet.of.apes.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">DAWN OF THE PLANET OF THE APES</title>
+  <programme channel="oneplay.marvel.2.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">CAPTAIN AMERICA - THE WINTER SOLDIER</title>
     <sub-title lang="en">Movie (2014)</sub-title>
     <date>2014</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvEZP.md.png" />
+  </programme>
+  <programme channel="oneplay.007.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - 007 HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.scream.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.007classic.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - 007classic HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.avengers.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - Avengers HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.fastandfurious.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - Fast&amp;Furious HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.finaldestination.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - FinalDestination HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.harrypotter.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - HarryPotter HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.missionimpossible.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - MissionImpossible HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.piratescaribbean.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - PiratesCaribbean HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.saw.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - Saw HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.transformers.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OnePlay - Transformers HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.planet.of.apes.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">THE PLANET OF IF</title>
+    <sub-title lang="en">Movie (2014)</sub-title>
+    <date>2014</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
+    <category lang="en">Movie</category>
+    <icon src="https://iili.io/bnvmPe.md.png" />
+  </programme>
+  <programme channel="oneplay.scream.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">SCREAM 3</title>
     <sub-title lang="en">Movie (2000)</sub-title>
     <date>2000</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.star.wars.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.star.wars.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">STARWARS: REVENGE OF THE SITH</title>
     <sub-title lang="en">Movie (2005)</sub-title>
     <date>2005</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.the.twilight.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.the.twilight.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">THE TWILIGHT SAGA- ECLIPSE</title>
     <sub-title lang="en">Movie (2010)</sub-title>
     <date>2010</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.ocean.s.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">OCEAN'S TWELVE</title>
-    <sub-title lang="en">Movie (2004)</sub-title>
-    <date>2004</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+  <programme channel="oneplay.ocean.s.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">OCEAN'S THIRTEEN</title>
+    <sub-title lang="en">Movie (2007)</sub-title>
+    <date>2007</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.the.expendables.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.the.expendables.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">THE EXPENDABLES 2</title>
     <sub-title lang="en">Movie (2012)</sub-title>
     <date>2012</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.spiderman.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.spiderman.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">SPIDER-MAN 3</title>
     <sub-title lang="en">Movie (2007)</sub-title>
     <date>2007</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.rambo.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
-    <title lang="en">RAMBO: FIRST BLOOD 2</title>
+  <programme channel="oneplay.rambo.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
+    <title lang="en">FIRST BLOOD 2</title>
     <sub-title lang="en">Movie (1985)</sub-title>
     <date>1985</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
-  <programme channel="oneplay.the.dark.knight.hd" start="20260619200000 +0000" stop="20260619220000 +0000">
+  <programme channel="oneplay.the.dark.knight.hd" start="20260619210000 +0000" stop="20260619230000 +0000">
     <title lang="en">THE DARK KNIGHT</title>
     <sub-title lang="en">Movie (2008)</sub-title>
     <date>2008</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 20:44 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-19 21:03 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
