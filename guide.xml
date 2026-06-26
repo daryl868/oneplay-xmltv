@@ -149,24 +149,25 @@
     <icon src="https://iili.io/bnvmPe.md.png" />
   </channel>
   <programme channel="oneplay.premiere.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">OnePlay Premiere HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">A HAUNTING IN VENICE</title>
+    <sub-title lang="en">Movie (2023)</sub-title>
+    <date>2023</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV0y8yQ.md.png" />
   </programme>
   <programme channel="oneplay.extra.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">GHOSTED</title>
-    <sub-title lang="en">Movie (2023)</sub-title>
-    <date>2023</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">OnePlay Extra HD</title>
+    <sub-title lang="en">Movie</sub-title>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV0yi6g.md.png" />
   </programme>
   <programme channel="oneplay.bestoff.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">OnePlay BestOff HD</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">12 YEARS A SLAVE</title>
+    <sub-title lang="en">Movie (2013)</sub-title>
+    <date>2013</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19FSf.md.png" />
   </programme>
@@ -174,31 +175,31 @@
     <title lang="en">THE ISLAND</title>
     <sub-title lang="en">Movie (2023)</sub-title>
     <date>2023</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
   <programme channel="oneplay.actionplus1.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">THE SECRET SERVICE</title>
+    <title lang="en">KINGSMAN: THE SECRET SERVICE</title>
     <sub-title lang="en">Movie (2014)</sub-title>
     <date>2014</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19ASj.md.png" />
   </programme>
   <programme channel="oneplay.comedy.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">BORAT: SUBSEQUENT</title>
+    <title lang="en">PALM SPRINGS</title>
     <sub-title lang="en">Movie (2020)</sub-title>
     <date>2020</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19VUJ.md.png" />
   </programme>
   <programme channel="oneplay.thriller.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">J PRISONERS</title>
+    <title lang="en">PRISONERS</title>
     <sub-title lang="en">Movie (2013)</sub-title>
     <date>2013</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV198fn.md.png" />
   </programme>
@@ -206,14 +207,15 @@
     <title lang="en">THE EVIL WITHIN</title>
     <sub-title lang="en">Movie (2017)</sub-title>
     <date>2017</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV194R4.md.png" />
   </programme>
   <programme channel="oneplay.warzone.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">odie eee abe me idan</title>
-    <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">THE LAST FRONTIER</title>
+    <sub-title lang="en">Movie (2020)</sub-title>
+    <date>2020</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV19sxS.md.png" />
   </programme>
@@ -221,7 +223,7 @@
     <title lang="en">TANG AND ME</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HdzB.md.png" />
   </programme>
@@ -229,7 +231,7 @@
     <title lang="en">FIVE BLIND DATES</title>
     <sub-title lang="en">Movie (2024)</sub-title>
     <date>2024</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1Hqga.md.png" />
   </programme>
@@ -237,7 +239,7 @@
     <title lang="en">ROALD DAHL'S MATILDA THE MUSICAL</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HoeR.md.png" />
   </programme>
@@ -245,7 +247,7 @@
     <title lang="en">CRY MACHO</title>
     <sub-title lang="en">Movie (2021)</sub-title>
     <date>2021</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HML7.md.png" />
   </programme>
@@ -253,7 +255,7 @@
     <title lang="en">THE SILENCE OF THE LAMBS</title>
     <sub-title lang="en">Movie (1991)</sub-title>
     <date>1991</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HemQ.md.png" />
   </programme>
@@ -261,55 +263,55 @@
     <title lang="en">ENTER THE DRAGON</title>
     <sub-title lang="en">Movie (1973)</sub-title>
     <date>1973</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/JV1HgB1.md.png" />
   </programme>
   <programme channel="oneplay.disneyplus.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">PINOCCHIO</title>
+    <title lang="en">LIES PINOCCHIO</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/boRnCF.md.png" />
   </programme>
   <programme channel="oneplay.marvel.1.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">THOR- THE DARK WORLD</title>
-    <sub-title lang="en">Movie (2013)</sub-title>
-    <date>2013</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">IRON MAN 2</title>
+    <sub-title lang="en">Movie (2010)</sub-title>
+    <date>2010</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.marvel.2.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">THOR- THE DARK WORLD</title>
-    <sub-title lang="en">Movie (2013)</sub-title>
-    <date>2013</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">IRON MAN 2</title>
+    <sub-title lang="en">Movie (2010)</sub-title>
+    <date>2010</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvEZP.md.png" />
   </programme>
   <programme channel="oneplay.007.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">007 - TOMORROW NEVER DIES</title>
-    <sub-title lang="en">Movie (1997)</sub-title>
-    <date>1997</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <title lang="en">LE 007 - CASINO ROYAL</title>
+    <sub-title lang="en">Movie (2006)</sub-title>
+    <date>2006</date>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.007classic.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">A NE AND LET DIE</title>
+    <title lang="en">007 - LIVE AND LET DIE</title>
     <sub-title lang="en">Movie (1973)</sub-title>
     <date>1973</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.avengers.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">AVENGERS- AGE : ULTRON</title>
+    <title lang="en">AVENGERS- AGE OF ULTRON</title>
     <sub-title lang="en">Movie (2015)</sub-title>
     <date>2015</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -317,7 +319,7 @@
     <title lang="en">FAST &amp; FURIOUS 1</title>
     <sub-title lang="en">Movie (2001)</sub-title>
     <date>2001</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -325,7 +327,7 @@
     <title lang="en">FINAL DESTINATION 5</title>
     <sub-title lang="en">Movie (2011)</sub-title>
     <date>2011</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -333,7 +335,7 @@
     <title lang="en">HARRY POTTER 5</title>
     <sub-title lang="en">Movie (2007)</sub-title>
     <date>2007</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -341,7 +343,7 @@
     <title lang="en">MISSION- IMPOSSIBLE: ROGUE NATION</title>
     <sub-title lang="en">Movie (2015)</sub-title>
     <date>2015</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -349,14 +351,14 @@
     <title lang="en">PIRATES OF THE CARIBBEAN 5</title>
     <sub-title lang="en">Movie (2017)</sub-title>
     <date>2017</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.saw.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
     <title lang="en">OnePlay - Saw HD</title>
     <sub-title lang="en">Movie</sub-title>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -364,15 +366,15 @@
     <title lang="en">TRANSFORMERS- DARK OF THE MOON</title>
     <sub-title lang="en">Movie (2011)</sub-title>
     <date>2011</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
   <programme channel="oneplay.planet.of.apes.hd" start="20260626040000 +0000" stop="20260626060000 +0000">
-    <title lang="en">DAWN OF THE PLANET OF THE APES</title>
+    <title lang="en">LA DAWN OF THE PLANET OF THE APES</title>
     <sub-title lang="en">Movie (2014)</sub-title>
     <date>2014</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -380,7 +382,7 @@
     <title lang="en">SCREAM</title>
     <sub-title lang="en">Movie (2022)</sub-title>
     <date>2022</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -388,7 +390,7 @@
     <title lang="en">STARWARS: THE RISE OF SKYWALKER</title>
     <sub-title lang="en">Movie (2019)</sub-title>
     <date>2019</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -396,7 +398,7 @@
     <title lang="en">THE TWILIGHT SAGA- ECLIPSE</title>
     <sub-title lang="en">Movie (2010)</sub-title>
     <date>2010</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -404,7 +406,7 @@
     <title lang="en">OCEAN'S THIRTEEN</title>
     <sub-title lang="en">Movie (2007)</sub-title>
     <date>2007</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -412,7 +414,7 @@
     <title lang="en">THE EXPENDABLES</title>
     <sub-title lang="en">Movie (2010)</sub-title>
     <date>2010</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -420,7 +422,7 @@
     <title lang="en">THE AMAZING SPIDER-MAN</title>
     <sub-title lang="en">Movie (2012)</sub-title>
     <date>2012</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -428,7 +430,7 @@
     <title lang="en">RAMBO: LAST BLOOD</title>
     <sub-title lang="en">Movie (2019)</sub-title>
     <date>2019</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
@@ -436,7 +438,7 @@
     <title lang="en">BATMAN: BEGINS</title>
     <sub-title lang="en">Movie (2005)</sub-title>
     <date>2005</date>
-    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:16 UTC</desc>
+    <desc lang="en">24/7 channel - OCR detected at 2026-06-26 04:37 UTC</desc>
     <category lang="en">Movie</category>
     <icon src="https://iili.io/bnvmPe.md.png" />
   </programme>
